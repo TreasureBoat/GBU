@@ -1,0 +1,51 @@
+<project name="TreasureBoat" default="dist" basedir=".">
+
+    <description>
+        TreasureBoat - the new thing.
+    </description>
+
+    <property name="src" location="Sources" />
+    <property name="build" location="build" />
+    <property name="dist"  location="dist" />
+
+    <property name="fRJ" value="framework/Resources/Java" />
+
+    <property file="build.properties" />
+    
+    <path id="class.path">
+        <fileset dir="${WO_FWKS}">
+            <include name="JavaFoundation.${fRJ}/javafoundation.jar" />
+        </fileset>
+    </path>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}" />
+        <mkdir dir="${build}/JavaWebObjects" />
+        <mkdir dir="${dist}" />
+    </target>
+
+    <target name="compile" depends="init">
+        <unjar src="${WO_FWKS}/JavaWebObjects.framework/Resources/Java/javawebobjects.jar" overwrite="false" dest="${build}/JavaWebObjects" />
+        <delete dir="${build}/JavaWebObjects/META-INF" />
+        <javac srcdir="Frameworks/JavaWebObjects/Sources" destdir="${build}/JavaWebObjects" includeantruntime="true" classpathref="class.path" />
+    </target>
+
+    <!-- was using: manifest="manifest.txt" on jar task -->
+
+    <target name="dist" depends="compile">
+        <mkdir dir="${dist}/JavaWebObjects.framework/Resources" />
+        <mkdir dir="${dist}/JavaWebObjects.framework/WebServerResources" />
+        <copy todir="${dist}/JavaWebObjects.framework/Resources">
+            <fileset dir="${WO_FWKS}/JavaWebObjects.framework/Resources">
+                <exclude name="**/*.jar" />
+            </fileset>
+        </copy>
+        <jar basedir="${build}/JavaWebObjects" destfile="${dist}/JavaWebObjects.${fRJ}/javawebobjects.jar" />
+    </target>
+
+    <target name="clean">
+        <delete dir="${build}" />
+        <delete dir="${dist}" />
+    </target>
+</project>
