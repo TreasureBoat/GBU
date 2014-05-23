@@ -1,0 +1,5 @@
+Compiled from "_NSUtilitiesExtra.java"
+public class com.webobjects.foundation._NSUtilitiesExtra {
+  public com.webobjects.foundation._NSUtilitiesExtra();
+  protected static java.lang.Class _classWithFullySpecifiedNamePrime(java.lang.String);
+}

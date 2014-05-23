@@ -1,0 +1,44 @@
+Compiled from "NSPathUtilities.java"
+public class com.webobjects.foundation.NSPathUtilities {
+  public static final java.lang.Class _CLASS;
+  public static java.lang.String _fileURLPrefix;
+  public static java.lang.String homeDirectory();
+  public static java.lang.String _fileSeparatorStandardizedPath(java.lang.String);
+  public static java.lang.String _normalizedPath(java.lang.String);
+  public static java.lang.String _standardizedPath(java.lang.String);
+  public static java.lang.String pathExtension(java.lang.String);
+  public static java.lang.String lastPathComponent(java.lang.String);
+  public static java.lang.String stringByDeletingLastPathComponent(java.lang.String);
+  public static java.lang.String stringByDeletingPathExtension(java.lang.String);
+  public static java.lang.String stringByAppendingPathComponent(java.lang.String, java.lang.String);
+  public static java.lang.String stringByAppendingPathExtension(java.lang.String, java.lang.String);
+  public static java.lang.String stringByNormalizingExistingPath(java.lang.String);
+  public static java.lang.String stringByStandardizingPath(java.lang.String);
+  public static java.lang.String _stringByStandardizingPath(java.lang.String);
+  public static boolean pathIsEqualToString(java.lang.String, java.lang.String);
+  public static boolean pathIsAbsolute(java.lang.String);
+  public static boolean fileExistsAtPath(java.lang.String);
+  public static boolean fileExistsAtPathURL(java.net.URL);
+  public static boolean _isFileProtocol(java.net.URL);
+  public static boolean _isJarProtocol(java.net.URL);
+  public static long _contentLengthForPathURL(java.net.URL);
+  public static long _lastModifiedForPathURL(java.net.URL);
+  public static java.net.URL URLWithPath(java.lang.String);
+  public static java.net.URL _URLWithPath(java.lang.String);
+  public static java.lang.String stringByNormalizingPath(java.lang.String);
+  public static java.net.URL _URLWithPathURL(java.lang.String);
+  public static java.net.URL _URLWithFile(java.io.File);
+  public static java.io.File _FileWithURL(java.net.URL);
+  public static com.webobjects.foundation.NSArray<java.lang.String> _directoryContentsAtPath(java.lang.String);
+  public static boolean _isDirectory(java.lang.String);
+  public static boolean _isDirectoryAtPathURL(java.net.URL);
+  public static void _removeFileAtPath(java.lang.String);
+  public static void _movePath(java.lang.String, java.lang.String);
+  public static boolean _overwriteFileWithFile(java.io.File, java.io.File);
+  public static boolean _createDirectory(java.lang.String);
+  public static java.lang.String _currentDirectoryPath();
+  public static boolean _fileAtPathIsWritable(java.lang.String);
+  public static boolean _fileAtPathURLIsWritable(java.net.URL);
+  public static void _copyPath(java.lang.String, java.lang.String, java.lang.Object);
+  static {};
+}

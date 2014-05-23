@@ -1,0 +1,33 @@
+Compiled from "NSCoder.java"
+public abstract class com.webobjects.foundation.NSCoder {
+  public static final java.lang.Class _CLASS;
+  public com.webobjects.foundation.NSCoder();
+  public abstract void encodeBoolean(boolean);
+  public abstract void encodeByte(byte);
+  public abstract void encodeBytes(byte[]);
+  public abstract void encodeChar(char);
+  public abstract void encodeShort(short);
+  public abstract void encodeInt(int);
+  public abstract void encodeLong(long);
+  public abstract void encodeFloat(float);
+  public abstract void encodeDouble(double);
+  public abstract void encodeObject(java.lang.Object);
+  public abstract void encodeClass(java.lang.Class);
+  public abstract void encodeObjects(java.lang.Object[]);
+  public abstract boolean decodeBoolean();
+  public abstract byte decodeByte();
+  public abstract byte[] decodeBytes();
+  public abstract char decodeChar();
+  public abstract short decodeShort();
+  public abstract int decodeInt();
+  public abstract long decodeLong();
+  public abstract float decodeFloat();
+  public abstract double decodeDouble();
+  public abstract java.lang.Object decodeObject();
+  public abstract java.lang.Class decodeClass();
+  public abstract java.lang.Object[] decodeObjects();
+  public void prepareForWriting(java.io.OutputStream);
+  public void prepareForReading(java.io.InputStream);
+  public void finishCoding();
+  static {};
+}

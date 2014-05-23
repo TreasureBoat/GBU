@@ -1,0 +1,14 @@
+Compiled from "NSMutableRange.java"
+public class com.webobjects.foundation.NSMutableRange extends com.webobjects.foundation.NSRange {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  public com.webobjects.foundation.NSMutableRange();
+  public com.webobjects.foundation.NSMutableRange(int, int);
+  public com.webobjects.foundation.NSMutableRange(com.webobjects.foundation.NSRange);
+  public void setLocation(int);
+  public void setLength(int);
+  public void unionRange(com.webobjects.foundation.NSRange);
+  public void intersectRange(com.webobjects.foundation.NSRange);
+  public java.lang.Object clone();
+  static {};
+}

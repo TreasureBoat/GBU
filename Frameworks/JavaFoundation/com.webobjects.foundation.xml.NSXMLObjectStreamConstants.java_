@@ -1,0 +1,33 @@
+Compiled from "NSXMLObjectStreamConstants.java"
+public interface com.webobjects.foundation.xml.NSXMLObjectStreamConstants extends java.io.ObjectStreamConstants {
+  public static final java.lang.String NAMESPACE;
+  public static final java.lang.String CONTENT_TAG;
+  public static final java.lang.String OBJECT_TAG;
+  public static final java.lang.String ARRAY_TAG;
+  public static final java.lang.String STRING_TAG;
+  public static final java.lang.String CLASS_TAG;
+  public static final java.lang.String SUPER_TAG;
+  public static final java.lang.String PROXY_TAG;
+  public static final java.lang.String FIELD_TAG;
+  public static final java.lang.String INTERFACE_TAG;
+  public static final java.lang.String BOOLEAN_TAG;
+  public static final java.lang.String BYTE_TAG;
+  public static final java.lang.String SHORT_TAG;
+  public static final java.lang.String CHAR_TAG;
+  public static final java.lang.String INT_TAG;
+  public static final java.lang.String LONG_TAG;
+  public static final java.lang.String FLOAT_TAG;
+  public static final java.lang.String DOUBLE_TAG;
+  public static final java.lang.String EXCEPTION_TAG;
+  public static final java.lang.String ID_ATTR;
+  public static final java.lang.String IDREF_ATTR;
+  public static final java.lang.String KEY_ATTR;
+  public static final java.lang.String NAME_ATTR;
+  public static final java.lang.String SUID_ATTR;
+  public static final java.lang.String FLAG_ATTR;
+  public static final java.lang.String TYPE_ATTR;
+  public static final java.lang.String FIELD_ATTR;
+  public static final java.lang.String CLASS_ATTR;
+  public static final java.lang.String LENGTH_ATTR;
+  public static final java.lang.String IGNORE_ATTR;
+}

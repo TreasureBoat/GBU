@@ -1,0 +1,19 @@
+Compiled from "NSComparator.java"
+public abstract class com.webobjects.foundation.NSComparator {
+  public static final java.lang.Class _CLASS;
+  public static final com.webobjects.foundation.NSComparator AscendingStringComparator;
+  public static final com.webobjects.foundation.NSComparator DescendingStringComparator;
+  public static final com.webobjects.foundation.NSComparator AscendingCaseInsensitiveStringComparator;
+  public static final com.webobjects.foundation.NSComparator DescendingCaseInsensitiveStringComparator;
+  public static final com.webobjects.foundation.NSComparator AscendingNumberComparator;
+  public static final com.webobjects.foundation.NSComparator DescendingNumberComparator;
+  public static final com.webobjects.foundation.NSComparator AscendingTimestampComparator;
+  public static final com.webobjects.foundation.NSComparator DescendingTimestampComparator;
+  public static final int OrderedAscending;
+  public static final int OrderedSame;
+  public static final int OrderedDescending;
+  public com.webobjects.foundation.NSComparator();
+  public abstract int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
+  public static int _compareObjects(java.lang.Comparable, java.lang.Comparable);
+  static {};
+}

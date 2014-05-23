@@ -1,0 +1,19 @@
+Compiled from "NSRecursiveLock.java"
+public class com.webobjects.foundation.NSRecursiveLock implements com.webobjects.foundation.NSLocking {
+  public static final java.lang.Class _CLASS;
+  protected java.lang.ref.WeakReference<java.lang.Thread> _owner;
+  protected long _recursionCount;
+  protected short _waitingThreads;
+  public com.webobjects.foundation.NSRecursiveLock();
+  public void lock();
+  public boolean tryLock();
+  public boolean _verifyLock();
+  public boolean tryLock(long);
+  public boolean tryLock(com.webobjects.foundation.NSTimestamp);
+  public boolean lockBeforeDate(com.webobjects.foundation.NSTimestamp);
+  public synchronized void unlock();
+  public synchronized void unlock(long);
+  public synchronized long recursionCount();
+  public java.lang.String toString();
+  static {};
+}

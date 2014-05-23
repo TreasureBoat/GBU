@@ -1,0 +1,6 @@
+Compiled from "NSDisposable.java"
+public interface com.webobjects.foundation.NSDisposable {
+  public static final java.lang.Class _CLASS;
+  public abstract void dispose();
+  static {};
+}

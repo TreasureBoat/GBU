@@ -1,0 +1,7 @@
+Compiled from "NSCoding.java"
+public interface com.webobjects.foundation.NSCoding {
+  public static final java.lang.Class _CLASS;
+  public abstract java.lang.Class classForCoder();
+  public abstract void encodeWithCoder(com.webobjects.foundation.NSCoder);
+  static {};
+}

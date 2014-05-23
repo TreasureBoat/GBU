@@ -1,0 +1,8 @@
+Compiled from "_NSArrayTxr.java"
+final class com.webobjects.foundation.xml._NSArrayTxr extends com.webobjects.foundation.xml._NSTagTransformer implements com.webobjects.foundation.xml.NSXMLObjectStreamConstants {
+  public com.webobjects.foundation.xml._NSArrayTxr(com.webobjects.foundation.xml._NSTransformHandler);
+  protected boolean isFullObject(org.xml.sax.Attributes) throws java.io.IOException;
+  public void handleStart(java.lang.String, org.xml.sax.Attributes) throws java.io.IOException;
+  public void handleEnd(java.lang.String, java.lang.String) throws java.io.IOException;
+  static {};
+}

@@ -1,0 +1,10 @@
+Compiled from "_NSCollectionReaderWriterLock.java"
+public class com.webobjects.foundation._NSCollectionReaderWriterLock {
+  public static final java.lang.Class _CLASS;
+  public com.webobjects.foundation._NSCollectionReaderWriterLock();
+  public synchronized void startReading();
+  public synchronized void endReading();
+  public void startWriting();
+  public synchronized void endWriting();
+  static {};
+}

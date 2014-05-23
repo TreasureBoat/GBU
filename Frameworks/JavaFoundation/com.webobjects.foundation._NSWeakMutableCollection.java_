@@ -1,0 +1,18 @@
+Compiled from "_NSWeakMutableCollection.java"
+public abstract class com.webobjects.foundation._NSWeakMutableCollection<T, R extends java.lang.ref.WeakReference<T>> {
+  protected java.lang.ref.ReferenceQueue<java.lang.Object> queue;
+  public com.webobjects.foundation._NSWeakMutableCollection();
+  public abstract com.webobjects.foundation.NSArray<T> allObjects();
+  public abstract int count();
+  public abstract T[] objects();
+  public abstract java.util.Enumeration<T> objectEnumerator();
+  public abstract java.util.Enumeration<R> referenceEnumerator();
+  public abstract void addObject(T);
+  public abstract void removeObject(java.lang.Object);
+  public abstract void addReference(R);
+  public abstract void removeReference(java.lang.Object);
+  protected abstract void __removeReference(java.lang.ref.Reference);
+  public abstract void removeAllObjects();
+  public abstract java.lang.String toString();
+  protected synchronized void processQueue();
+}

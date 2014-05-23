@@ -1,0 +1,18 @@
+Compiled from "_NSMutableIntegerKeyDictionary.java"
+public class com.webobjects.foundation._NSMutableIntegerKeyDictionary<V> extends com.webobjects.foundation._NSIntegerKeyDictionary<V> {
+  static final long serialVersionUID;
+  public static final java.lang.Class _CLASS;
+  public com.webobjects.foundation._NSMutableIntegerKeyDictionary();
+  public com.webobjects.foundation._NSMutableIntegerKeyDictionary(int);
+  public com.webobjects.foundation._NSMutableIntegerKeyDictionary(V, int);
+  public com.webobjects.foundation._NSMutableIntegerKeyDictionary(V[], int[]);
+  public com.webobjects.foundation._NSMutableIntegerKeyDictionary(com.webobjects.foundation._NSIntegerKeyDictionary<V>);
+  public java.lang.Object removeObjectForKey(int);
+  public void removeAllObjects();
+  public void setObjectForKey(V, int);
+  public void setIntegerDictionary(com.webobjects.foundation._NSIntegerKeyDictionary<V>);
+  public void addEntriesFromIntegerDictionary(com.webobjects.foundation._NSIntegerKeyDictionary<V>);
+  public void removeObjectsForKeys(int[]);
+  public java.lang.Object clone();
+  static {};
+}

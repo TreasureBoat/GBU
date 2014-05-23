@@ -1,0 +1,4 @@
+Compiled from "_NSFoundationCollection.java"
+public interface com.webobjects.foundation._NSFoundationCollection {
+  public abstract int _shallowHashCode();
+}

@@ -1,0 +1,22 @@
+Compiled from "_NSThreadsafeMutableDictionary.java"
+public class com.webobjects.foundation._NSThreadsafeMutableDictionary<K, V> extends com.webobjects.foundation._NSThreadsafeWrapper implements java.io.Serializable, com.webobjects.foundation.NSKeyValueCoding {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  public com.webobjects.foundation._NSThreadsafeMutableDictionary(com.webobjects.foundation.NSMutableDictionary<K, V>);
+  public com.webobjects.foundation.NSMutableDictionary<K, V> delegate();
+  public java.lang.Object clone();
+  public int count();
+  public V objectForKey(java.lang.Object);
+  public void setObjectForKey(java.lang.Object, java.lang.Object);
+  public java.lang.Object removeObjectForKey(java.lang.Object);
+  public void removeAllObjects();
+  public com.webobjects.foundation.NSDictionary<K, V> immutableClone();
+  public com.webobjects.foundation.NSMutableDictionary<K, V> mutableClone();
+  public java.lang.Object valueForKey(java.lang.String);
+  public java.util.Enumeration<K> keyEnumerator();
+  public java.util.Enumeration<V> objectEnumerator();
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+  public com.webobjects.foundation.NSArray<K> allKeys();
+  public com.webobjects.foundation.NSArray<V> allValues();
+  static {};
+}

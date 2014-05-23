@@ -1,0 +1,14 @@
+Compiled from "_NSGregorianCalendar.java"
+public class com.webobjects.foundation._NSGregorianCalendar extends java.util.GregorianCalendar {
+  static final long serialVersionUID;
+  public long realtime;
+  public com.webobjects.foundation._NSGregorianCalendar(com.webobjects.foundation.NSTimeZone, long);
+  public com.webobjects.foundation._NSGregorianCalendar(com.webobjects.foundation.NSTimeZone, java.util.Date);
+  public void setTimeZone(com.webobjects.foundation.NSTimeZone);
+  public void setTimeZone(java.util.TimeZone);
+  public java.util.TimeZone getTimeZone();
+  public long getTimeInMillis();
+  public void setTimeInMillis(long);
+  protected void computeTime();
+  protected void computeFields();
+}

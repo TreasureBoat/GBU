@@ -1,0 +1,11 @@
+Compiled from "_NSTagTransformer.java"
+abstract class com.webobjects.foundation.xml._NSTagTransformer implements com.webobjects.foundation.xml.NSXMLObjectStreamConstants {
+  protected com.webobjects.foundation.xml._NSTransformHandler handler;
+  protected int numEDB;
+  public com.webobjects.foundation.xml._NSTagTransformer(com.webobjects.foundation.xml._NSTransformHandler);
+  protected final void getNumEndDataBlock(org.xml.sax.Attributes) throws java.io.StreamCorruptedException;
+  protected final void writeEndDataBlock() throws java.io.IOException;
+  protected final void writeEndDataBlock(int) throws java.io.IOException;
+  public void handleStart(java.lang.String, org.xml.sax.Attributes) throws java.io.IOException;
+  public void handleEnd(java.lang.String, java.lang.String) throws java.io.IOException;
+}

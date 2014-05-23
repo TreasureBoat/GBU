@@ -1,0 +1,9 @@
+Compiled from "_NSXMLObjectStreamClass.java"
+final class com.webobjects.foundation.xml._NSXMLObjectStreamClass extends com.webobjects.foundation._NSObjectStreamClass implements com.webobjects.foundation.xml.NSXMLObjectStreamConstants {
+  static java.util.HashMap<java.lang.Class<?>, com.webobjects.foundation.xml._NSXMLObjectStreamClass$PrimitiveValue> primitiveClassToXMLTag;
+  public com.webobjects.foundation.xml._NSXMLObjectStreamClass(java.lang.Class);
+  public org.w3c.dom.Element writeArray(com.webobjects.foundation.xml.NSXMLOutputStream, org.w3c.dom.Element, int);
+  public org.w3c.dom.Element write(com.webobjects.foundation.xml.NSXMLOutputStream, org.w3c.dom.Element, int, java.lang.String);
+  public static com.webobjects.foundation.xml._NSXMLObjectStreamClass NSXMLlookup(java.lang.Class);
+  static {};
+}

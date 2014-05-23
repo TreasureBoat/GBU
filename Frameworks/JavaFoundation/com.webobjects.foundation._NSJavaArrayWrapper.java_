@@ -1,0 +1,11 @@
+Compiled from "_NSJavaArrayWrapper.java"
+public class com.webobjects.foundation._NSJavaArrayWrapper implements java.io.Serializable {
+  static final long serialVersionUID;
+  public int hash;
+  public java.lang.Object[] data;
+  public com.webobjects.foundation._NSJavaArrayWrapper(java.lang.Object[]);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void nullify();
+  static {};
+}

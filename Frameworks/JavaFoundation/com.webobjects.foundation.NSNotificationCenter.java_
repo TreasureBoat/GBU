@@ -1,0 +1,17 @@
+Compiled from "NSNotificationCenter.java"
+public class com.webobjects.foundation.NSNotificationCenter {
+  public static final java.lang.Class _CLASS;
+  public static com.webobjects.foundation.NSNotificationCenter defaultCenter();
+  protected com.webobjects.foundation.NSNotificationCenter();
+  public java.lang.String toString();
+  protected com.webobjects.foundation.NSNotificationCenter$_Entry _getEntry(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.ref.ReferenceQueue<java.lang.Object>);
+  public synchronized void addOmniscientObserver(java.lang.Object, com.webobjects.foundation.NSSelector);
+  public synchronized void addObserver(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.String, java.lang.Object);
+  public synchronized void removeOmniscientObserver(java.lang.Object);
+  public void removeObserver(java.lang.Object);
+  public synchronized void removeObserver(java.lang.Object, java.lang.String, java.lang.Object);
+  public void postNotification(com.webobjects.foundation.NSNotification);
+  public void postNotification(java.lang.String, java.lang.Object);
+  public void postNotification(java.lang.String, java.lang.Object, com.webobjects.foundation.NSDictionary);
+  static {};
+}

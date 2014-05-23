@@ -1,0 +1,9 @@
+Compiled from "_NSJavaSetIterator.java"
+public class com.webobjects.foundation._NSJavaSetIterator<E> implements java.util.Iterator<E> {
+  int index;
+  E[] _objects;
+  public com.webobjects.foundation._NSJavaSetIterator(E[]);
+  public boolean hasNext();
+  public E next();
+  public void remove();
+}

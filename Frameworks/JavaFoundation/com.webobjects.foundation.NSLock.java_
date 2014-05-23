@@ -1,0 +1,16 @@
+Compiled from "NSLock.java"
+public class com.webobjects.foundation.NSLock implements com.webobjects.foundation.NSLocking {
+  public static final java.lang.Class _CLASS;
+  protected boolean _locked;
+  protected short _waitingThreads;
+  public com.webobjects.foundation.NSLock();
+  public synchronized void lock();
+  public synchronized void unlock();
+  public synchronized boolean tryLock();
+  public synchronized boolean tryLock(long);
+  public boolean tryLock(com.webobjects.foundation.NSTimestamp);
+  public boolean lockBeforeDate(com.webobjects.foundation.NSTimestamp);
+  public java.lang.String toString();
+  public synchronized boolean _isLocked();
+  static {};
+}

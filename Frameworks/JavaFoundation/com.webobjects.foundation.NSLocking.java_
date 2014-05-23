@@ -1,0 +1,14 @@
+Compiled from "NSLocking.java"
+public interface com.webobjects.foundation.NSLocking {
+  public static final java.lang.Class _CLASS;
+  public static final long OneSecond;
+  public static final long OneMinute;
+  public static final long OneHour;
+  public static final long OneDay;
+  public static final long OneWeek;
+  public static final long OneYear;
+  public static final long OneCentury;
+  public abstract void lock();
+  public abstract void unlock();
+  static {};
+}

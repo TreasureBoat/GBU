@@ -1,0 +1,26 @@
+Compiled from "NSXMLObjectOutput.java"
+public interface com.webobjects.foundation.xml.NSXMLObjectOutput {
+  public abstract void write(int, java.lang.String);
+  public abstract void write(byte[], java.lang.String) throws java.io.IOException;
+  public abstract void write(byte[], int, int, java.lang.String) throws java.io.IOException;
+  public abstract void writeBoolean(boolean, java.lang.String);
+  public abstract void writeByte(int, java.lang.String);
+  public abstract void writeShort(int, java.lang.String);
+  public abstract void writeChar(int, java.lang.String);
+  public abstract void writeInt(int, java.lang.String);
+  public abstract void writeLong(long, java.lang.String);
+  public abstract void writeFloat(float, java.lang.String);
+  public abstract void writeDouble(double, java.lang.String);
+  public abstract void writeObject(java.lang.Object, java.lang.String) throws java.io.IOException;
+  public abstract void writeBytes(java.lang.String, java.lang.String) throws java.io.IOException;
+  public abstract void writeChars(java.lang.String, java.lang.String) throws java.io.IOException;
+  public abstract void writeUTF(java.lang.String, java.lang.String);
+  public abstract void writeComment(java.lang.String);
+  public abstract void writeRootComment(java.lang.String, boolean);
+  public abstract boolean setUseBase64ForBinaryData(boolean);
+  public abstract boolean useBase64ForBinaryData();
+  public abstract boolean enableReferenceForString();
+  public abstract boolean disableReferenceForString();
+  public abstract int disableReferenceForString(int);
+  public abstract boolean useReferenceForString();
+}

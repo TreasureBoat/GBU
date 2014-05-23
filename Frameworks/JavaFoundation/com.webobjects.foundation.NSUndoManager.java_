@@ -1,0 +1,41 @@
+Compiled from "NSUndoManager.java"
+public class com.webobjects.foundation.NSUndoManager implements com.webobjects.foundation.NSDisposable {
+  public static final java.lang.Class _CLASS;
+  public static final int UndoCloseGroupingRunLoopOrdering;
+  public static final java.lang.String CheckpointNotification;
+  public static final java.lang.String WillUndoChangeNotification;
+  public static final java.lang.String WillRedoChangeNotification;
+  public static final java.lang.String DidUndoChangeNotification;
+  public static final java.lang.String DidRedoChangeNotification;
+  public static final java.lang.String DidOpenUndoGroupNotification;
+  public static final java.lang.String WillCloseUndoGroupNotification;
+  public void _processEndOfEventNotification(java.lang.Object);
+  public com.webobjects.foundation.NSUndoManager$_NSUndoStack _undoStack();
+  public com.webobjects.foundation.NSUndoManager();
+  public void dispose();
+  public void disposeIfNoSourceRegistered();
+  public void registerActionSource(java.lang.Object, com.webobjects.foundation.NSSelector);
+  public void removeActionSource(java.lang.Object);
+  public void beginUndoGrouping();
+  public int groupingLevel();
+  public void endUndoGrouping();
+  public void disableUndoRegistration();
+  public void enableUndoRegistration();
+  public boolean isUndoRegistrationEnabled();
+  public boolean groupsByEvent();
+  public void setGroupsByEvent(boolean);
+  public void setLevelsOfUndo(int);
+  public int levelsOfUndo();
+  public void undo();
+  public void undoNestedGroup();
+  public void redo();
+  public boolean canUndo();
+  public boolean canRedo();
+  public boolean isUndoing();
+  public boolean isRedoing();
+  public void removeAllActions();
+  public void removeAllActionsWithTarget(java.lang.Object);
+  public void registerUndoWithTarget(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.Object);
+  public void registerUndoWithTargetAndArguments(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.Object[]);
+  static {};
+}

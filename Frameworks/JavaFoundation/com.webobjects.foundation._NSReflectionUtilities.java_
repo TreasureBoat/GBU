@@ -1,0 +1,17 @@
+Compiled from "_NSReflectionUtilities.java"
+public class com.webobjects.foundation._NSReflectionUtilities {
+  public static final java.lang.Class _CLASS;
+  public com.webobjects.foundation._NSReflectionUtilities();
+  public static boolean _staticBooleanMethodValue(java.lang.String, java.lang.Class[], java.lang.Object[], java.lang.Class, java.lang.Class, boolean);
+  public static java.lang.reflect.Field _fieldForClass(java.lang.Class, java.lang.String, boolean);
+  public static java.lang.reflect.Method _methodForClass(java.lang.Class, java.lang.String, java.lang.Class[], boolean);
+  public static java.lang.Class _inferredValueClassForKey(java.lang.Class, java.lang.String, boolean);
+  public static java.lang.reflect.Method _methodWithOneArgumentOfUnknownType(java.lang.Class, java.lang.String, java.lang.String, boolean, boolean, java.lang.Class, boolean);
+  public static java.lang.reflect.Method _methodForKeyOnClass(java.lang.Class, java.lang.String, java.lang.String, java.lang.Class, java.lang.Class);
+  public static java.lang.reflect.Method _keyManipulationMethod(java.lang.Class, java.lang.String, java.lang.Class, java.lang.Class);
+  public static java.lang.reflect.Method _keyManipulationMethodWithPrefix(java.lang.Class, java.lang.String, java.lang.String, java.lang.Class, java.lang.Class);
+  public static java.lang.Object _invokeMethodOnObject(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]);
+  public static java.lang.reflect.Method[] methodsOnClass(java.lang.Class);
+  public static java.lang.reflect.Method[] methodsOnClass(java.lang.Class, int);
+  static {};
+}

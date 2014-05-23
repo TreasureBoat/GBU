@@ -1,0 +1,16 @@
+Compiled from "_NSDictionaryUtilities.java"
+public final class com.webobjects.foundation._NSDictionaryUtilities {
+  public com.webobjects.foundation._NSDictionaryUtilities();
+  public static com.webobjects.foundation.NSDictionary extractObjectsForKeysWithPrefix(com.webobjects.foundation.NSMutableDictionary, java.lang.String, boolean);
+  public static com.webobjects.foundation.NSMutableDictionary mutableValuesForKeys(com.webobjects.foundation.NSDictionary, com.webobjects.foundation.NSArray);
+  public static <K, V> void translateFromKeysToKeys(com.webobjects.foundation.NSMutableDictionary<K, V>, com.webobjects.foundation.NSArray<K>, com.webobjects.foundation.NSArray<K>);
+  public static boolean boolValueForKeyDefault(com.webobjects.foundation.NSDictionary, java.lang.String, boolean);
+  public static com.webobjects.foundation.NSMutableDictionary mutablePropertyList(com.webobjects.foundation.NSDictionary);
+  public static boolean writeToFile(com.webobjects.foundation.NSDictionary, java.lang.String);
+  public static boolean containsOnlyNullObjects(com.webobjects.foundation.NSDictionary);
+  public static boolean containsAnyNullObject(com.webobjects.foundation.NSDictionary);
+  public static void overrideEntriesWithObjectsFromDictionaryKeys(com.webobjects.foundation.NSMutableDictionary, com.webobjects.foundation.NSDictionary, com.webobjects.foundation.NSArray);
+  public static com.webobjects.foundation.NSDictionary dictionaryWithNullValuesForKeys(com.webobjects.foundation.NSArray);
+  public static java.lang.Object nullEnabledValueForKey(com.webobjects.foundation.NSDictionary, java.lang.String);
+  public static com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.String> dictionaryWithContentsOfStringsFile(java.lang.String);
+}

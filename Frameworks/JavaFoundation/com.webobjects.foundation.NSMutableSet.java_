@@ -1,0 +1,30 @@
+Compiled from "NSMutableSet.java"
+public class com.webobjects.foundation.NSMutableSet<E> extends com.webobjects.foundation.NSSet<E> {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  public com.webobjects.foundation.NSMutableSet();
+  public com.webobjects.foundation.NSMutableSet(int);
+  public com.webobjects.foundation.NSMutableSet(E);
+  public com.webobjects.foundation.NSMutableSet(E[]);
+  public com.webobjects.foundation.NSMutableSet(com.webobjects.foundation.NSArray<? extends E>);
+  public com.webobjects.foundation.NSMutableSet(com.webobjects.foundation.NSSet<? extends E>);
+  public com.webobjects.foundation.NSMutableSet(java.util.Collection<? extends E>);
+  public void addObject(java.lang.Object);
+  public E removeObject(java.lang.Object);
+  public void removeAllObjects();
+  public void setSet(com.webobjects.foundation.NSSet<? extends E>);
+  public void addObjectsFromArray(com.webobjects.foundation.NSArray);
+  public void intersectSet(com.webobjects.foundation.NSSet<?>);
+  public void subtractSet(com.webobjects.foundation.NSSet<?>);
+  public void unionSet(com.webobjects.foundation.NSSet<?>);
+  public java.lang.Object clone();
+  public com.webobjects.foundation.NSSet<E> immutableClone();
+  public com.webobjects.foundation.NSMutableSet<E> mutableClone();
+  public boolean remove(java.lang.Object);
+  public void clear();
+  public boolean retainAll(java.util.Collection);
+  public boolean removeAll(java.util.Collection<?>);
+  public boolean add(E);
+  public boolean addAll(java.util.Collection<? extends E>);
+  static {};
+}

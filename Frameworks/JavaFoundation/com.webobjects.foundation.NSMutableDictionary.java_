@@ -1,0 +1,28 @@
+Compiled from "NSMutableDictionary.java"
+public class com.webobjects.foundation.NSMutableDictionary<K, V> extends com.webobjects.foundation.NSDictionary<K, V> {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  public com.webobjects.foundation.NSMutableDictionary();
+  public com.webobjects.foundation.NSMutableDictionary(int);
+  public com.webobjects.foundation.NSMutableDictionary(V, K);
+  public com.webobjects.foundation.NSMutableDictionary(V[], K[]);
+  public com.webobjects.foundation.NSMutableDictionary(com.webobjects.foundation.NSArray<V>, com.webobjects.foundation.NSArray<K>);
+  public com.webobjects.foundation.NSMutableDictionary(com.webobjects.foundation.NSDictionary<K, V>);
+  public com.webobjects.foundation.NSMutableDictionary(java.util.Dictionary, boolean);
+  public com.webobjects.foundation.NSMutableDictionary(java.util.Map<K, V>);
+  public void setObjectForKey(java.lang.Object, java.lang.Object);
+  public V removeObjectForKey(java.lang.Object);
+  public void removeAllObjects();
+  public void setDictionary(com.webobjects.foundation.NSDictionary);
+  public void addEntriesFromDictionary(com.webobjects.foundation.NSDictionary);
+  public void removeObjectsForKeys(com.webobjects.foundation.NSArray);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+  public java.lang.Object clone();
+  public com.webobjects.foundation.NSDictionary<K, V> immutableClone();
+  public com.webobjects.foundation.NSMutableDictionary<K, V> mutableClone();
+  public V put(K, V);
+  public V remove(java.lang.Object);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public void clear();
+  static {};
+}

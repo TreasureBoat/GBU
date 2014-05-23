@@ -1,0 +1,14 @@
+Compiled from "_NSSerialClassReflector.java"
+public class com.webobjects.foundation._NSSerialClassReflector {
+  static final int WRITE_OBJECT;
+  static final int READ_OBJECT;
+  static final int WRITE_REPLACE;
+  static final int READ_RESOLVE;
+  static com.webobjects.foundation._NSSerialClassReflector createClassReflector(java.lang.Class);
+  com.webobjects.foundation._NSSerialClassReflector();
+  void init(java.lang.Class);
+  public static com.webobjects.foundation._NSSerialClassReflector$Factory factory();
+  public com.webobjects.foundation._NSSerialFieldDesc[] serializableFields();
+  public java.lang.reflect.Method[] methodsForSerialization();
+  static {};
+}

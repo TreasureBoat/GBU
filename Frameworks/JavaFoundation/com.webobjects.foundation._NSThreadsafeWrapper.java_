@@ -1,0 +1,8 @@
+Compiled from "_NSThreadsafeWrapper.java"
+public abstract class com.webobjects.foundation._NSThreadsafeWrapper {
+  com.webobjects.foundation._NSThreadsafeWrapper();
+  public final void acquireReadLock();
+  public final void releaseReadLock();
+  protected final void acquireWriteLock();
+  protected final void releaseWriteLock();
+}

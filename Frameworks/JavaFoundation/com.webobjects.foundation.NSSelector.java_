@@ -1,0 +1,28 @@
+Compiled from "NSSelector.java"
+public class com.webobjects.foundation.NSSelector<T> implements java.io.Serializable {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  protected java.lang.String _name;
+  protected java.lang.Class[] _types;
+  public static <T> T _safeInvokeSelector(com.webobjects.foundation.NSSelector<T>, java.lang.Object, java.lang.Object[]);
+  public static java.lang.Object _safeInvokeMethod(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]);
+  public com.webobjects.foundation.NSSelector(java.lang.String);
+  public com.webobjects.foundation.NSSelector(java.lang.String, java.lang.Class[]);
+  public boolean equals(java.lang.Object);
+  public java.lang.String name();
+  public java.lang.Class[] parameterTypes();
+  public java.lang.reflect.Method methodOnClass(java.lang.Class) throws java.lang.NoSuchMethodException;
+  public java.lang.reflect.Method methodOnObject(java.lang.Object) throws java.lang.NoSuchMethodException;
+  public boolean implementedByClass(java.lang.Class);
+  public boolean implementedByObject(java.lang.Object);
+  public T invoke(java.lang.Object, java.lang.Object[]) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public T invoke(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public T invoke(java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public T invoke(java.lang.Object, java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public static java.lang.Object invoke(java.lang.String, java.lang.Class[], java.lang.Object, java.lang.Object[]) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public static java.lang.Object invoke(java.lang.String, java.lang.Class, java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public static java.lang.Object invoke(java.lang.String, java.lang.Class, java.lang.Class, java.lang.Object, java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException;
+  public int hashCode();
+  public java.lang.String toString();
+  static {};
+}

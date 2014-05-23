@@ -1,0 +1,8 @@
+Compiled from "NSKeyValueCoding.java"
+public interface com.webobjects.foundation.NSKeyValueCoding {
+  public static final java.lang.Class _CLASS;
+  public static final com.webobjects.foundation.NSKeyValueCoding$Null NullValue;
+  public abstract java.lang.Object valueForKey(java.lang.String);
+  public abstract void takeValueForKey(java.lang.Object, java.lang.String);
+  static {};
+}
