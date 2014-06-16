@@ -1,0 +1,36 @@
+Compiled from "NSRange.java"
+public class com.webobjects.foundation.NSRange implements java.io.Serializable,java.lang.Cloneable {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationLocationFieldKey;
+  private static final java.lang.String SerializationLengthFieldKey;
+  public static final com.webobjects.foundation.NSRange ZeroRange;
+  protected int _location;
+  protected int _length;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  public static com.webobjects.foundation.NSRange fromString(java.lang.String);
+  public com.webobjects.foundation.NSRange();
+  private com.webobjects.foundation.NSRange(int, int, boolean);
+  public com.webobjects.foundation.NSRange(int, int);
+  public com.webobjects.foundation.NSRange(com.webobjects.foundation.NSRange);
+  public int location();
+  public int length();
+  public com.webobjects.foundation.NSRange rangeByUnioningRange(com.webobjects.foundation.NSRange);
+  public com.webobjects.foundation.NSRange rangeByIntersectingRange(com.webobjects.foundation.NSRange);
+  public void subtractRange(com.webobjects.foundation.NSRange, com.webobjects.foundation.NSMutableRange, com.webobjects.foundation.NSMutableRange);
+  public int maxRange();
+  public boolean isEmpty();
+  public boolean containsLocation(int);
+  public boolean locationInRange(int);
+  public boolean intersectsRange(com.webobjects.foundation.NSRange);
+  public boolean isSubrangeOfRange(com.webobjects.foundation.NSRange);
+  public boolean isEqualToRange(com.webobjects.foundation.NSRange);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  private java.lang.Object readResolve() throws java.io.ObjectStreamException;
+  static {};
+}

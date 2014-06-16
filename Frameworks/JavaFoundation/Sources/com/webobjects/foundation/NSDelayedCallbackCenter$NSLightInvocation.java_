@@ -1,0 +1,14 @@
+Compiled from "NSDelayedCallbackCenter.java"
+class com.webobjects.foundation.NSDelayedCallbackCenter$NSLightInvocation {
+  protected final java.lang.Object _target;
+  protected final com.webobjects.foundation.NSSelector _selector;
+  protected final java.lang.Object _argument;
+  protected final int _order;
+  public com.webobjects.foundation.NSDelayedCallbackCenter$NSLightInvocation(com.webobjects.foundation.NSSelector, java.lang.Object, java.lang.Object, int);
+  public com.webobjects.foundation.NSDelayedCallbackCenter$NSLightInvocation(com.webobjects.foundation.NSSelector, java.lang.Object, java.lang.Object);
+  public java.lang.Object target();
+  public boolean equals(java.lang.Object);
+  public void invoke();
+  public int order();
+  public int hashCode();
+}

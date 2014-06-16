@@ -1,0 +1,33 @@
+Compiled from "NSMultiReaderLock.java"
+public class com.webobjects.foundation.NSMultiReaderLock implements com.webobjects.foundation.NSLocking {
+  public static final java.lang.Class _CLASS;
+  com.webobjects.foundation.NSMutableDictionary _lockTable;
+  volatile java.lang.Thread _writerLockThread;
+  volatile int _writerLockCount;
+  volatile int _totalReaderCount;
+  com.webobjects.foundation.NSLock _instanceLock;
+  com.webobjects.foundation.NSMultiReaderLock$ConditionLock _writerFinished;
+  com.webobjects.foundation.NSMultiReaderLock$ConditionLock _readerFinished;
+  private static final int EOEnabled;
+  private static final int EOPromoted;
+  private static final int EOSuspended;
+  private void _gcLockTable();
+  public com.webobjects.foundation.NSMultiReaderLock();
+  public void lockForReading();
+  private void _lockForReading();
+  public void unlockForReading();
+  public void lock();
+  public void lockForWriting();
+  private void _lockForWriting();
+  public void unlock();
+  public void unlockForWriting();
+  public void suspendReaderLocks();
+  public void retrieveReaderLocks();
+  public boolean tryLockForWriting();
+  public boolean tryLockForReading();
+  public java.lang.String toString();
+  protected java.lang.String _padString(long, int);
+  protected java.lang.String _padString(java.lang.String, int, boolean);
+  synchronized void validateLockCounts();
+  static {};
+}

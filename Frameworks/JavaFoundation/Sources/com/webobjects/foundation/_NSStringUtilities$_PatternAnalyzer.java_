@@ -1,0 +1,5 @@
+Compiled from "_NSStringUtilities.java"
+class com.webobjects.foundation._NSStringUtilities$_PatternAnalyzer extends com.webobjects.foundation._NSStringUtilities$_StringAnalyzer {
+  public com.webobjects.foundation._NSStringUtilities$_PatternAnalyzer(java.lang.String);
+  public char nextCharacter();
+}

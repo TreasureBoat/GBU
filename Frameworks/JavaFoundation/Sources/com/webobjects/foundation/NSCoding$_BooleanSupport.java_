@@ -1,0 +1,6 @@
+Compiled from "NSCoding.java"
+public class com.webobjects.foundation.NSCoding$_BooleanSupport extends com.webobjects.foundation.NSCoding$Support {
+  public com.webobjects.foundation.NSCoding$_BooleanSupport();
+  public void encodeWithCoder(java.lang.Object, com.webobjects.foundation.NSCoder);
+  public java.lang.Object decodeObject(com.webobjects.foundation.NSCoder);
+}

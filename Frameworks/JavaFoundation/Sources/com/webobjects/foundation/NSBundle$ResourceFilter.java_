@@ -1,0 +1,6 @@
+Compiled from "NSBundle.java"
+class com.webobjects.foundation.NSBundle$ResourceFilter implements java.io.FilenameFilter {
+  private java.lang.String extension;
+  public com.webobjects.foundation.NSBundle$ResourceFilter(java.lang.String);
+  public boolean accept(java.io.File, java.lang.String);
+}

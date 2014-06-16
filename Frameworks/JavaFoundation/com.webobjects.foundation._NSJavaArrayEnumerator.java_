@@ -1,9 +1,0 @@
-Compiled from "_NSJavaArrayEnumerator.java"
-public class com.webobjects.foundation._NSJavaArrayEnumerator<E> implements java.util.Enumeration<E> {
-  public static final java.lang.Class _CLASS;
-  public com.webobjects.foundation._NSJavaArrayEnumerator(E[], boolean);
-  public com.webobjects.foundation._NSJavaArrayEnumerator(E[], int, boolean);
-  public boolean hasMoreElements();
-  public E nextElement();
-  static {};
-}

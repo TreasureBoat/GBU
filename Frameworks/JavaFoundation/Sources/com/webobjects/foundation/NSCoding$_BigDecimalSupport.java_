@@ -1,0 +1,11 @@
+Compiled from "NSCoding.java"
+public class com.webobjects.foundation.NSCoding$_BigDecimalSupport extends com.webobjects.foundation.NSCoding$_BigIntegerSupport {
+  private static final int _MaxMantissaSize;
+  private static final int _MaxByteDifference;
+  private static final double _LnTen;
+  public com.webobjects.foundation.NSCoding$_BigDecimalSupport();
+  private double _logBaseTen(double);
+  public void encodeWithCoder(java.lang.Object, com.webobjects.foundation.NSCoder);
+  public java.lang.Object decodeObject(com.webobjects.foundation.NSCoder);
+  static {};
+}

@@ -1,0 +1,14 @@
+Compiled from "NSTimestamp.java"
+class com.webobjects.foundation.NSTimestamp$GregorianDateAsRawUnits {
+  public int years;
+  public int months;
+  public int days;
+  public int hours;
+  public int minutes;
+  public int seconds;
+  final com.webobjects.foundation.NSTimestamp this$0;
+  public com.webobjects.foundation.NSTimestamp$GregorianDateAsRawUnits(com.webobjects.foundation.NSTimestamp, int[]);
+  public com.webobjects.foundation.NSTimestamp$GregorianDateAsRawUnits(com.webobjects.foundation.NSTimestamp, int, int, int, int, int, int);
+  public com.webobjects.foundation.NSTimestamp$GregorianDateAsRawUnits(com.webobjects.foundation.NSTimestamp);
+  public java.lang.String toString();
+}

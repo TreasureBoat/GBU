@@ -1,0 +1,6 @@
+Compiled from "_NSUtilities.java"
+class com.webobjects.foundation._NSUtilities$_NoClassUnderTheSun {
+  protected static final java.lang.Class _CLASS;
+  private com.webobjects.foundation._NSUtilities$_NoClassUnderTheSun();
+  static {};
+}

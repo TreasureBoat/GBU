@@ -1,0 +1,12 @@
+Compiled from "_NSWeakMutableCollection.java"
+public class com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionReference<T> extends java.lang.ref.WeakReference<T> {
+  protected int hash;
+  private java.lang.Object _key;
+  public java.lang.String toString();
+  public com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionReference(T, java.lang.ref.ReferenceQueue<? super T>, java.lang.Object);
+  public com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionReference(T, java.lang.ref.ReferenceQueue<? super T>);
+  public com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionReference(T);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  protected java.lang.Object key();
+}

@@ -1,0 +1,6 @@
+Compiled from "NSBundle.java"
+class com.webobjects.foundation.NSBundle$InfoDictFilter implements java.io.FilenameFilter {
+  private static final java.lang.String INFO_DICT_NAME;
+  com.webobjects.foundation.NSBundle$InfoDictFilter();
+  public boolean accept(java.io.File, java.lang.String);
+}

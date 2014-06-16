@@ -1,0 +1,11 @@
+Compiled from "NSXMLOutputStream.java"
+final class com.webobjects.foundation.xml.NSXMLOutputStream$_LightweightReplaceMap {
+  private com.webobjects.foundation.xml.NSXMLOutputStream$_LightweightObjectIntMap _indices;
+  private java.lang.Object[] _replacements;
+  private void grow();
+  com.webobjects.foundation.xml.NSXMLOutputStream$_LightweightReplaceMap(int, float);
+  void assign(java.lang.Object, java.lang.Object);
+  java.lang.Object lookup(java.lang.Object);
+  void clear();
+  int size();
+}

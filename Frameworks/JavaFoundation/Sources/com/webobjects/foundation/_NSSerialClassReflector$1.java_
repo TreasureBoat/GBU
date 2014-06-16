@@ -1,0 +1,6 @@
+Compiled from "_NSSerialClassReflector.java"
+class com.webobjects.foundation._NSSerialClassReflector$1 implements java.security.PrivilegedAction {
+  final java.lang.Class val$cl;
+  com.webobjects.foundation._NSSerialClassReflector$1(java.lang.Class);
+  public java.lang.Object run();
+}

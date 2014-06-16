@@ -1,0 +1,33 @@
+Compiled from "NSPropertyListSerialization.java"
+public class com.webobjects.foundation.NSPropertyListSerialization {
+  public static final java.lang.Class _CLASS;
+  private static final int EOT;
+  public static final boolean Indents;
+  public static final boolean NoIndents;
+  public static final boolean ForceXML;
+  private com.webobjects.foundation.NSPropertyListSerialization();
+  public static java.lang.String stringFromPropertyList(java.lang.Object);
+  public static java.lang.String stringFromPropertyList(java.lang.Object, boolean);
+  public static java.lang.String xmlStringFromPropertyList(java.lang.Object);
+  public static java.lang.String xmlStringFromPropertyList(java.lang.Object, boolean);
+  static boolean startsWithXMLDeclaration(java.lang.String);
+  public static java.lang.Object propertyListFromString(java.lang.String);
+  public static java.lang.Object propertyListFromString(java.lang.String, boolean);
+  public static java.lang.Object propertyListWithPathURL(java.net.URL);
+  public static java.lang.Object propertyListWithPathURL(java.net.URL, boolean);
+  public static com.webobjects.foundation.NSData dataFromPropertyList(java.lang.Object);
+  public static com.webobjects.foundation.NSData dataFromPropertyList(java.lang.Object, java.lang.String);
+  public static java.lang.Object propertyListFromData(com.webobjects.foundation.NSData);
+  public static java.lang.Object propertyListFromData(com.webobjects.foundation.NSData, java.lang.String);
+  public static boolean booleanForString(java.lang.String);
+  public static int intForString(java.lang.String);
+  public static com.webobjects.foundation.NSArray arrayWithPathURL(java.net.URL);
+  public static com.webobjects.foundation.NSArray arrayWithPathURL(java.net.URL, boolean);
+  public static com.webobjects.foundation.NSArray arrayForString(java.lang.String);
+  public static com.webobjects.foundation.NSArray arrayForString(java.lang.String, boolean);
+  public static com.webobjects.foundation.NSDictionary dictionaryWithPathURL(java.net.URL);
+  public static com.webobjects.foundation.NSDictionary dictionaryWithPathURL(java.net.URL, boolean);
+  public static com.webobjects.foundation.NSDictionary dictionaryForString(java.lang.String);
+  public static com.webobjects.foundation.NSDictionary dictionaryForString(java.lang.String, boolean);
+  static {};
+}

@@ -1,0 +1,23 @@
+Compiled from "_NSBase64.java"
+public final class com.webobjects.foundation._NSBase64 {
+  private static final int BASELENGTH;
+  private static final int LOOKUPLENGTH;
+  private static final int TWENTYFOURBITGROUP;
+  private static final int EIGHTBIT;
+  private static final int SIXTEENBIT;
+  private static final int FOURBYTE;
+  private static final int SIGN;
+  private static final byte PAD;
+  private static byte[] base64Alphabet;
+  private static byte[] lookUpBase64Alphabet;
+  public com.webobjects.foundation._NSBase64();
+  protected static boolean isWhiteSpace(byte);
+  protected static boolean isPad(byte);
+  protected static boolean isData(byte);
+  protected static boolean isBase64(byte);
+  public static byte[] encode(byte[], int, int);
+  public static byte[] encode(byte[]);
+  public static byte[] decode(byte[]);
+  public static java.lang.String decode(java.lang.String);
+  static {};
+}

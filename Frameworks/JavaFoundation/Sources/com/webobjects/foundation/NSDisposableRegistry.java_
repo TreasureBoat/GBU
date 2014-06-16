@@ -1,0 +1,13 @@
+Compiled from "NSDisposableRegistry.java"
+public class com.webobjects.foundation.NSDisposableRegistry implements com.webobjects.foundation.NSDisposable {
+  public static final java.lang.Class _CLASS;
+  private com.webobjects.foundation.NSMutableSet<? extends java.lang.Object> _entries;
+  public com.webobjects.foundation.NSDisposableRegistry();
+  public void addObject(com.webobjects.foundation.NSDisposable);
+  public void removeObject(com.webobjects.foundation.NSDisposable);
+  public void dispose();
+  public void addObjectsFromRegistry(com.webobjects.foundation.NSDisposableRegistry);
+  public java.lang.String toString();
+  public java.util.Enumeration _objectEnumerator();
+  static {};
+}

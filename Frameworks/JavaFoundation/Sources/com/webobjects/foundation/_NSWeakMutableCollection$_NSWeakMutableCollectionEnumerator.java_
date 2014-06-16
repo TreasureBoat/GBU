@@ -1,0 +1,8 @@
+Compiled from "_NSWeakMutableCollection.java"
+public class com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionEnumerator<T, R extends java.lang.ref.WeakReference<T>> implements java.util.Enumeration<T> {
+  private java.util.Enumeration<R> _enumeration;
+  private T _nextElement;
+  public com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionEnumerator(java.util.Enumeration<R>);
+  public boolean hasMoreElements();
+  public T nextElement();
+}

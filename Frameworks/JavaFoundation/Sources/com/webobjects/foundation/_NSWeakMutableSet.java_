@@ -1,0 +1,26 @@
+Compiled from "_NSWeakMutableSet.java"
+public class com.webobjects.foundation._NSWeakMutableSet<T, R extends java.lang.ref.WeakReference<T>> extends com.webobjects.foundation._NSWeakMutableCollection<T, R> implements java.io.Serializable {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationKeysFieldKey;
+  private com.webobjects.foundation.NSMutableSet<R> set;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  public com.webobjects.foundation._NSWeakMutableSet();
+  public com.webobjects.foundation._NSWeakMutableSet(int);
+  public com.webobjects.foundation.NSArray<T> allObjects();
+  public int count();
+  public T[] objects();
+  public java.util.Enumeration<T> objectEnumerator();
+  public java.util.Enumeration<R> referenceEnumerator();
+  public void addObject(T);
+  public void addReference(R);
+  public void removeObject(java.lang.Object);
+  public void removeReference(java.lang.Object);
+  protected void __removeReference(java.lang.ref.Reference);
+  protected void removeReferencesWithReferent(java.lang.Object);
+  public void removeAllObjects();
+  public java.lang.String toString();
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  static {};
+}

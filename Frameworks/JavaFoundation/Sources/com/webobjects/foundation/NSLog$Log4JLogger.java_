@@ -1,0 +1,16 @@
+Compiled from "NSLog.java"
+public class com.webobjects.foundation.NSLog$Log4JLogger extends com.webobjects.foundation.NSLog$Logger {
+  protected org.apache.log4j.Logger logger;
+  protected org.apache.log4j.Level logLevel;
+  public com.webobjects.foundation.NSLog$Log4JLogger();
+  public com.webobjects.foundation.NSLog$Log4JLogger(org.apache.log4j.Logger, int);
+  protected static int convertLog4JLevelToNSLogLevel(int);
+  protected static int convertNSLogLevelToLog4JLevel(int);
+  public int allowedDebugLevel();
+  public void appendln();
+  public void appendln(java.lang.Object);
+  public void flush();
+  public org.apache.log4j.Logger log4jLogger();
+  public void setAllowedDebugLevel(int);
+  public void setLog4jLogger(org.apache.log4j.Logger);
+}

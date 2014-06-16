@@ -1,0 +1,15 @@
+Compiled from "NSMultiReaderLock.java"
+class com.webobjects.foundation.NSMultiReaderLock$LockRecord {
+  private long _readerLockCount;
+  private int _readerStatus;
+  final com.webobjects.foundation.NSMultiReaderLock this$0;
+  public com.webobjects.foundation.NSMultiReaderLock$LockRecord(com.webobjects.foundation.NSMultiReaderLock);
+  public long readerLockCount();
+  public void incrementLockCount();
+  public void decrementLockCount();
+  public int readerStatus();
+  public void promote();
+  public void demote();
+  public void suspend();
+  public void retrieve();
+}

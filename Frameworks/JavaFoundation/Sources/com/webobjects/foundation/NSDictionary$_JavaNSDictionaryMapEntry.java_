@@ -1,0 +1,11 @@
+Compiled from "NSDictionary.java"
+public class com.webobjects.foundation.NSDictionary$_JavaNSDictionaryMapEntry<K, V> implements java.util.Map$Entry<K, V> {
+  V _entryValue;
+  K _entryKey;
+  public com.webobjects.foundation.NSDictionary$_JavaNSDictionaryMapEntry(K, V);
+  public K getKey();
+  public V getValue();
+  public V setValue(V);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

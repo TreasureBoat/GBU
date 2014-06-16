@@ -1,0 +1,6 @@
+Compiled from "_NSTransformHandler.java"
+abstract class com.webobjects.foundation.xml._NSTransformHandler$_NSPrimitiveTxr extends com.webobjects.foundation.xml._NSTagTransformer {
+  protected boolean objectValue;
+  protected com.webobjects.foundation.xml._NSTransformHandler$_NSPrimitiveTxr(com.webobjects.foundation.xml._NSTransformHandler);
+  public void handleStart(java.lang.String, org.xml.sax.Attributes) throws java.io.IOException;
+}

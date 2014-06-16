@@ -1,0 +1,6 @@
+Compiled from "NSTimestamp.java"
+public class com.webobjects.foundation.NSTimestamp$IntRef {
+  public int value;
+  public com.webobjects.foundation.NSTimestamp$IntRef();
+  public java.lang.String toString();
+}

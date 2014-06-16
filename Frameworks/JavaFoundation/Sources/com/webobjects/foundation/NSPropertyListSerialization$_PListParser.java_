@@ -1,0 +1,8 @@
+Compiled from "NSPropertyListSerialization.java"
+public abstract class com.webobjects.foundation.NSPropertyListSerialization$_PListParser {
+  private boolean _indents;
+  public com.webobjects.foundation.NSPropertyListSerialization$_PListParser(boolean);
+  protected void _appendIndentationToStringBuffer(java.lang.StringBuffer, int);
+  protected void _appendNewLineToStringBuffer(java.lang.StringBuffer, int);
+  public abstract java.lang.Object parseStringIntoPlist(java.lang.String);
+}

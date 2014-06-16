@@ -1,0 +1,16 @@
+Compiled from "NSValidation.java"
+public class com.webobjects.foundation.NSValidation$_ValidationBinding {
+  public static final java.lang.Class _CLASS;
+  protected java.lang.Class<? extends java.lang.Object> _targetClass;
+  protected java.lang.String _key;
+  private int _hashCode;
+  public com.webobjects.foundation.NSValidation$_ValidationBinding(java.lang.Class<? extends java.lang.Object>, java.lang.String);
+  public final java.lang.Class<? extends java.lang.Object> targetClass();
+  public final java.lang.String key();
+  public final int hashCode();
+  public final boolean isEqualToValidationBinding(com.webobjects.foundation.NSValidation$_ValidationBinding);
+  public final boolean equals(java.lang.Object);
+  public java.lang.Object validateValueOnObject(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSValidation$ValidationException;
+  public java.lang.String toString();
+  static {};
+}

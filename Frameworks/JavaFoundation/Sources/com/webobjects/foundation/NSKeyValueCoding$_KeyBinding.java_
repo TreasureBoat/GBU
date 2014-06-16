@@ -1,0 +1,25 @@
+Compiled from "NSKeyValueCoding.java"
+public class com.webobjects.foundation.NSKeyValueCoding$_KeyBinding {
+  public static final java.lang.Class _CLASS;
+  protected static final java.lang.Short _shortFalse;
+  protected static final java.lang.Short _shortTrue;
+  protected java.lang.Class _targetClass;
+  protected java.lang.String _key;
+  private int _hashCode;
+  public com.webobjects.foundation.NSKeyValueCoding$_KeyBinding(java.lang.Class, java.lang.String);
+  public final java.lang.Class targetClass();
+  public final java.lang.String key();
+  public final int hashCode();
+  public final boolean isEqualToKeyBinding(com.webobjects.foundation.NSKeyValueCoding$_KeyBinding);
+  public final boolean equals(java.lang.Object);
+  public java.lang.Class valueType();
+  public boolean isScalarProperty();
+  public java.lang.Object valueInObject(java.lang.Object);
+  public void setValueInObject(java.lang.Object, java.lang.Object);
+  protected void _unableToSetNull(java.lang.Object);
+  protected java.lang.reflect.Constructor _numberStringConstructorForValueClass(java.lang.Class);
+  protected java.lang.Object _convertValueIntoBoolean(java.lang.Object);
+  protected java.lang.Object _convertValueIntoNumberOfValueType(java.lang.Object, java.lang.Class);
+  public java.lang.String toString();
+  static {};
+}

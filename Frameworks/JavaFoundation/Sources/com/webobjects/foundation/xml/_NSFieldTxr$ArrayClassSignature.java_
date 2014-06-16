@@ -1,0 +1,6 @@
+Compiled from "_NSFieldTxr.java"
+class com.webobjects.foundation.xml._NSFieldTxr$ArrayClassSignature {
+  java.lang.String sig;
+  char code;
+  com.webobjects.foundation.xml._NSFieldTxr$ArrayClassSignature();
+}

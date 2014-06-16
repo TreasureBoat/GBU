@@ -1,0 +1,11 @@
+Compiled from "NSUndoManager.java"
+class com.webobjects.foundation.NSUndoManager$_NSUndoLightInvocation extends com.webobjects.foundation.NSUndoManager$_NSUndoObject {
+  private com.webobjects.foundation.NSSelector _selector;
+  private java.lang.Object[] _args;
+  public com.webobjects.foundation.NSUndoManager$_NSUndoLightInvocation(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.Object);
+  public com.webobjects.foundation.NSUndoManager$_NSUndoLightInvocation(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.Object[]);
+  public void invoke();
+  java.lang.Object _argument();
+  java.lang.Object[] _arguments();
+  public java.lang.String toString();
+}

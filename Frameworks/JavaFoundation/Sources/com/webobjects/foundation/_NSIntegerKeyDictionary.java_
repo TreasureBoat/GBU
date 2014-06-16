@@ -1,0 +1,44 @@
+Compiled from "_NSIntegerKeyDictionary.java"
+public class com.webobjects.foundation._NSIntegerKeyDictionary<V> implements java.lang.Cloneable, java.io.Serializable, com.webobjects.foundation._NSFoundationCollection {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationKeysFieldKey;
+  private static final java.lang.String SerializationValuesFieldKey;
+  protected transient int _capacity;
+  protected transient int _hashtableBuckets;
+  protected transient int _count;
+  protected V[] _values;
+  protected transient V[] _valuesCache;
+  protected transient byte[] _flags;
+  protected int[] _keys;
+  protected transient int[] _keysCache;
+  protected transient int _hashCache;
+  protected static int _NSDictionaryClassHashCode;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  protected void _initializeDictionary();
+  protected void _ensureCapacity(int);
+  public com.webobjects.foundation._NSIntegerKeyDictionary();
+  public com.webobjects.foundation._NSIntegerKeyDictionary(V, int);
+  private void initFromIntegers(V[], int[], boolean);
+  private com.webobjects.foundation._NSIntegerKeyDictionary(V[], int[], boolean);
+  public com.webobjects.foundation._NSIntegerKeyDictionary(V[], int[]);
+  public com.webobjects.foundation._NSIntegerKeyDictionary(com.webobjects.foundation._NSIntegerKeyDictionary<V>);
+  protected int[] keysNoCopy();
+  protected V[] objectsNoCopy();
+  public int count();
+  public V objectForKey(int);
+  public int[] allKeys();
+  public com.webobjects.foundation.NSArray<V> allObjects();
+  public int[] allKeysForObject(java.lang.Object);
+  public com.webobjects.foundation.NSArray<V> objectsForKeys(int[]);
+  private boolean _equalsIntegerKeyDictionary(com.webobjects.foundation._NSIntegerKeyDictionary);
+  public boolean isEqualToIntegerKeyDictionary(com.webobjects.foundation._NSIntegerKeyDictionary);
+  public boolean equals(java.lang.Object);
+  public int _shallowHashCode();
+  public int hashCode();
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  static {};
+}

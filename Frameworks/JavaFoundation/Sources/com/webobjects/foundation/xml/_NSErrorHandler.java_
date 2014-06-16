@@ -1,0 +1,8 @@
+Compiled from "_NSErrorHandler.java"
+final class com.webobjects.foundation.xml._NSErrorHandler implements org.xml.sax.ErrorHandler {
+  private java.io.OutputStream _transformedData;
+  public com.webobjects.foundation.xml._NSErrorHandler(java.io.OutputStream);
+  public void warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+  public void error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+  public void fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+}

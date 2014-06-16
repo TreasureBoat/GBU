@@ -1,0 +1,7 @@
+Compiled from "_NSTagTransformer.java"
+public final class com.webobjects.foundation.xml._NSTagTransformer$CharArray {
+  private char[] _charArray;
+  public com.webobjects.foundation.xml._NSTagTransformer$CharArray(int);
+  char get(int);
+  void put(int, char);
+}

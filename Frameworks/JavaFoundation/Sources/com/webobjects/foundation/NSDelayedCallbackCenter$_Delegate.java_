@@ -1,0 +1,6 @@
+Compiled from "NSDelayedCallbackCenter.java"
+public interface com.webobjects.foundation.NSDelayedCallbackCenter$_Delegate {
+  public abstract void _delayedCallbackCenterWillNeedEndOfEventNotification(com.webobjects.foundation.NSDelayedCallbackCenter);
+  public abstract boolean _delayedCallbackCenterShouldHandleEndOfEvent(com.webobjects.foundation.NSDelayedCallbackCenter);
+  public abstract void _delayedCallbackCenterWillHandleEndOfEvent(com.webobjects.foundation.NSDelayedCallbackCenter);
+}

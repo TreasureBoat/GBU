@@ -1,0 +1,5 @@
+Compiled from "_NSTransformHandler.java"
+final class com.webobjects.foundation.xml._NSTransformHandler$_NSByteTxr extends com.webobjects.foundation.xml._NSTransformHandler$_NSPrimitiveTxr {
+  public com.webobjects.foundation.xml._NSTransformHandler$_NSByteTxr(com.webobjects.foundation.xml._NSTransformHandler);
+  public void handleEnd(java.lang.String, java.lang.String) throws java.io.IOException;
+}

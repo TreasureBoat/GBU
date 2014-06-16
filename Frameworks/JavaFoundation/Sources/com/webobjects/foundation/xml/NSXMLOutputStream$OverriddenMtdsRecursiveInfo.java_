@@ -1,0 +1,8 @@
+Compiled from "NSXMLOutputStream.java"
+final class com.webobjects.foundation.xml.NSXMLOutputStream$OverriddenMtdsRecursiveInfo {
+  java.lang.Object _curObj;
+  com.webobjects.foundation.xml._NSXMLObjectStreamClass _curDesc;
+  com.webobjects.foundation.xml._NSXMLPutField _curPutField;
+  com.webobjects.foundation.xml.NSXMLOutputStream$OverriddenMtdsRecursiveInfo(java.lang.Object, com.webobjects.foundation.xml._NSXMLObjectStreamClass, com.webobjects.foundation.xml._NSXMLPutField);
+  boolean isActive();
+}

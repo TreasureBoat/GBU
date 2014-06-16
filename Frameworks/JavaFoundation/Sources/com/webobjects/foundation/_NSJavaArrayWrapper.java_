@@ -1,0 +1,17 @@
+Compiled from "_NSJavaArrayWrapper.java"
+public class com.webobjects.foundation._NSJavaArrayWrapper implements java.io.Serializable {
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationDataFieldKey;
+  private static final java.lang.String SerializationHashFieldKey;
+  public int hash;
+  public java.lang.Object[] data;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  private com.webobjects.foundation._NSJavaArrayWrapper();
+  public com.webobjects.foundation._NSJavaArrayWrapper(java.lang.Object[]);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void nullify();
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  static {};
+}

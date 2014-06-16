@@ -1,0 +1,31 @@
+Compiled from "NSLog.java"
+public class com.webobjects.foundation.NSLog$_DevNullPrintStream extends java.io.PrintStream {
+  public java.io.OutputStream originalOutputStream;
+  public com.webobjects.foundation.NSLog$_DevNullPrintStream(java.io.OutputStream);
+  public com.webobjects.foundation.NSLog$_DevNullPrintStream(java.io.OutputStream, boolean);
+  protected void setError();
+  public boolean checkError();
+  public void close();
+  public void flush();
+  public void print(boolean);
+  public void print(char);
+  public void print(char[]);
+  public void print(double);
+  public void print(float);
+  public void print(int);
+  public void print(long);
+  public void print(java.lang.Object);
+  public void print(java.lang.String);
+  public void println();
+  public void println(boolean);
+  public void println(char);
+  public void println(char[]);
+  public void println(double);
+  public void println(float);
+  public void println(int);
+  public void println(long);
+  public void println(java.lang.Object);
+  public void println(java.lang.String);
+  public void write(int);
+  public void write(byte[], int, int);
+}

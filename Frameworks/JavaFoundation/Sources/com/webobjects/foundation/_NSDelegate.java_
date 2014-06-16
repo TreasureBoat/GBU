@@ -1,0 +1,40 @@
+Compiled from "_NSDelegate.java"
+public class com.webobjects.foundation._NSDelegate implements java.io.Serializable {
+  public static final java.lang.Class _CLASS;
+  private static final java.lang.Object MethodNotFoundMarker;
+  static final long serialVersionUID;
+  private static final java.lang.String InterfaceFieldKey;
+  private static final java.lang.String DelegateFieldKey;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  private volatile java.lang.Class<?> _interface;
+  private volatile java.lang.Object _delegate;
+  private volatile transient boolean _delegateConformsToInterface;
+  private volatile transient com.webobjects.foundation.NSMutableDictionary _methodsByName;
+  private transient java.lang.String _lastMethodName;
+  private transient java.lang.reflect.Method _lastMethod;
+  private transient java.lang.reflect.Method[] _interfaceMethods;
+  public com.webobjects.foundation._NSDelegate(java.lang.Class);
+  public com.webobjects.foundation._NSDelegate(java.lang.Class, java.lang.Object);
+  public void setDelegate(java.lang.Object);
+  public java.lang.Object delegate();
+  public boolean delegateConformsToInterface();
+  private synchronized void _setupForDelegate(java.lang.Object);
+  private java.lang.reflect.Method _cachedMethodForName(java.lang.String);
+  private static java.lang.reflect.Method _delegateMethodForInterfaceMethod(java.lang.String, java.lang.reflect.Method, java.lang.Class);
+  public boolean respondsTo(java.lang.String);
+  public java.lang.Object perform(java.lang.String);
+  public java.lang.Object perform(java.lang.String, java.lang.Object);
+  public java.lang.Object perform(java.lang.String, java.lang.Object, java.lang.Object);
+  public java.lang.Object perform(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object);
+  public java.lang.Object perform(java.lang.String, java.lang.Object[]);
+  public boolean booleanPerform(java.lang.String);
+  public boolean booleanPerform(java.lang.String, java.lang.Object);
+  public boolean booleanPerform(java.lang.String, java.lang.Object, java.lang.Object);
+  public boolean booleanPerform(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object);
+  public boolean booleanPerform(java.lang.String, java.lang.Object[]);
+  public java.lang.String toString();
+  private java.lang.Object _perform(java.lang.String, java.lang.Object[]);
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  static {};
+}

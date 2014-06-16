@@ -1,0 +1,5 @@
+Compiled from "NSBundle.java"
+class com.webobjects.foundation.NSBundle$DirectoryFilter implements java.io.FilenameFilter {
+  com.webobjects.foundation.NSBundle$DirectoryFilter();
+  public boolean accept(java.io.File, java.lang.String);
+}

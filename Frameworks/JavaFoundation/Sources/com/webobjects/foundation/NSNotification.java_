@@ -1,0 +1,26 @@
+Compiled from "NSNotification.java"
+public class com.webobjects.foundation.NSNotification implements com.webobjects.foundation.NSCoding,java.io.Serializable {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationNameFieldKey;
+  private static final java.lang.String SerializationObjectFieldKey;
+  private static final java.lang.String SerializationUserInfoFieldKey;
+  private java.lang.String _name;
+  private java.lang.Object _object;
+  private com.webobjects.foundation.NSDictionary _userInfo;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  public com.webobjects.foundation.NSNotification(java.lang.String, java.lang.Object, com.webobjects.foundation.NSDictionary);
+  public com.webobjects.foundation.NSNotification(java.lang.String, java.lang.Object);
+  public java.lang.String name();
+  public java.lang.Object object();
+  public com.webobjects.foundation.NSDictionary userInfo();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public java.lang.Class classForCoder();
+  public static java.lang.Object decodeObject(com.webobjects.foundation.NSCoder);
+  public void encodeWithCoder(com.webobjects.foundation.NSCoder);
+  public int hashCode();
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  static {};
+}

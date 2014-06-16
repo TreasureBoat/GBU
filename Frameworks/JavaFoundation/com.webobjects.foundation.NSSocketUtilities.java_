@@ -1,9 +1,0 @@
-Compiled from "NSSocketUtilities.java"
-public class com.webobjects.foundation.NSSocketUtilities {
-  public static java.net.Socket getSocketWithTimeout(java.lang.String, int, int) throws java.net.UnknownHostException, java.io.IOException;
-  public static java.net.Socket getSocketWithTimeout(java.lang.String, int, java.net.InetAddress, int, int) throws java.net.UnknownHostException, java.io.IOException;
-  public static java.net.Socket getSocketWithTimeout(java.net.InetAddress, int, int) throws java.io.IOException;
-  public static java.net.Socket getSocketWithTimeout(java.net.InetAddress, int, java.net.InetAddress, int, int) throws java.io.IOException;
-  public static int pollingInterval();
-  public static void setPollingInterval(int);
-}

@@ -1,0 +1,7 @@
+Compiled from "_NSSerialClassReflector.java"
+public final class com.webobjects.foundation._NSSerialClassReflector$Factory {
+  private static java.util.WeakHashMap<java.lang.Class, com.webobjects.foundation._NSSerialClassReflector[]> _cachedReflectors;
+  com.webobjects.foundation._NSSerialClassReflector$Factory();
+  public com.webobjects.foundation._NSSerialClassReflector classReflector(java.lang.Class);
+  static {};
+}

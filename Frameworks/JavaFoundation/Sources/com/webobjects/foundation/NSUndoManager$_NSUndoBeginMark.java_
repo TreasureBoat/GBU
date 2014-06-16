@@ -1,0 +1,9 @@
+Compiled from "NSUndoManager.java"
+class com.webobjects.foundation.NSUndoManager$_NSUndoBeginMark extends com.webobjects.foundation.NSUndoManager$_NSUndoObject {
+  private java.lang.Object _groupIdentifier;
+  com.webobjects.foundation.NSUndoManager$_NSUndoBeginMark();
+  public void setGroupIdentifier(java.lang.Object);
+  public java.lang.Object groupIdentifier();
+  public boolean isBeginMark();
+  public java.lang.String toString();
+}

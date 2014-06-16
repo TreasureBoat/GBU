@@ -1,0 +1,6 @@
+Compiled from "NSUndoManager.java"
+class com.webobjects.foundation.NSUndoManager$_NSUndoEndMark extends com.webobjects.foundation.NSUndoManager$_NSUndoObject {
+  com.webobjects.foundation.NSUndoManager$_NSUndoEndMark();
+  public boolean isEndMark();
+  public java.lang.String toString();
+}

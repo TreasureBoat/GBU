@@ -1,0 +1,22 @@
+Compiled from "NSMutableArray.java"
+public class com.webobjects.foundation.NSMutableArray$MutableArrayListIterator implements java.util.ListIterator<E> {
+  private int _limit;
+  private int _nextIndex;
+  private int _initIndex;
+  private boolean wasAddCalled;
+  private boolean wasRemoveCalled;
+  private boolean calledOnce;
+  final com.webobjects.foundation.NSMutableArray this$0;
+  public com.webobjects.foundation.NSMutableArray$MutableArrayListIterator(E[], int);
+  public com.webobjects.foundation.NSMutableArray$MutableArrayListIterator(E[], int, int);
+  public void add(java.lang.Object);
+  public void set(E);
+  public void remove();
+  public int previousIndex();
+  public int nextIndex();
+  private void _resetMarkers();
+  public E previous();
+  public boolean hasPrevious();
+  public E next();
+  public boolean hasNext();
+}

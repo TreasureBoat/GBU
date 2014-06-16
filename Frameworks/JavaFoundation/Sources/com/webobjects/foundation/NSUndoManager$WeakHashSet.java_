@@ -1,0 +1,18 @@
+Compiled from "NSUndoManager.java"
+class com.webobjects.foundation.NSUndoManager$WeakHashSet<E> extends java.util.AbstractSet<E> implements java.util.Set<E> {
+  private static final long serialVersionUID;
+  private transient java.util.WeakHashMap<E, java.lang.Object> _map;
+  private static final java.lang.Object PRESENT;
+  public com.webobjects.foundation.NSUndoManager$WeakHashSet();
+  public com.webobjects.foundation.NSUndoManager$WeakHashSet(java.util.Collection<? extends E>);
+  public com.webobjects.foundation.NSUndoManager$WeakHashSet(int, float);
+  public com.webobjects.foundation.NSUndoManager$WeakHashSet(int);
+  public java.util.Iterator<E> iterator();
+  public int size();
+  public boolean isEmpty();
+  public boolean contains(java.lang.Object);
+  public boolean add(E);
+  public boolean remove(java.lang.Object);
+  public void clear();
+  static {};
+}

@@ -1,0 +1,15 @@
+Compiled from "_NSXMLObjectStreamClass.java"
+final class com.webobjects.foundation.xml._NSXMLObjectStreamClass extends com.webobjects.foundation._NSObjectStreamClass implements com.webobjects.foundation.xml.NSXMLObjectStreamConstants {
+  private static final long serialVersionUID;
+  private static java.util.HashMap<java.lang.Class<?>, java.lang.String> _cachedNiceTypeNames;
+  static java.util.HashMap<java.lang.Class<?>, com.webobjects.foundation.xml._NSXMLObjectStreamClass$PrimitiveValue> primitiveClassToXMLTag;
+  private static final java.lang.String ARRAY_TYPE;
+  private org.w3c.dom.Element _classElement;
+  public com.webobjects.foundation.xml._NSXMLObjectStreamClass(java.lang.Class);
+  private void writeFieldDesc(com.webobjects.foundation.xml.NSXMLOutputStream);
+  private static java.lang.String niceTypeName(java.lang.Class, com.webobjects.foundation.xml.NSXMLOutputStream);
+  public org.w3c.dom.Element writeArray(com.webobjects.foundation.xml.NSXMLOutputStream, org.w3c.dom.Element, int);
+  public org.w3c.dom.Element write(com.webobjects.foundation.xml.NSXMLOutputStream, org.w3c.dom.Element, int, java.lang.String);
+  public static com.webobjects.foundation.xml._NSXMLObjectStreamClass NSXMLlookup(java.lang.Class);
+  static {};
+}

@@ -1,0 +1,18 @@
+Compiled from "NSKeyValueCoding.java"
+public abstract class com.webobjects.foundation.NSKeyValueCoding$ValueAccessor {
+  public static final java.lang.Class _CLASS;
+  private static final com.webobjects.foundation._NSThreadsafeMutableDictionary<java.lang.String, com.webobjects.foundation.NSKeyValueCoding$ValueAccessor> _packageNameToValueAccessorMapTable;
+  private static final java.lang.String _PackageProtectedAccessorClassName;
+  static final com.webobjects.foundation.NSKeyValueCoding$ValueAccessor _defaultValueAccessor;
+  public static void _flushCaches();
+  public static void setProtectedAccessorForPackageNamed(com.webobjects.foundation.NSKeyValueCoding$ValueAccessor, java.lang.String);
+  public static com.webobjects.foundation.NSKeyValueCoding$ValueAccessor protectedAccessorForPackageNamed(java.lang.String);
+  public static void removeProtectedAccessorForPackageNamed(java.lang.String);
+  public static com.webobjects.foundation.NSKeyValueCoding$ValueAccessor _valueAccessorForClass(java.lang.Class);
+  public com.webobjects.foundation.NSKeyValueCoding$ValueAccessor();
+  public abstract java.lang.Object fieldValue(java.lang.Object, java.lang.reflect.Field) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException;
+  public abstract void setFieldValue(java.lang.Object, java.lang.reflect.Field, java.lang.Object) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException;
+  public abstract java.lang.Object methodValue(java.lang.Object, java.lang.reflect.Method) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException;
+  public abstract void setMethodValue(java.lang.Object, java.lang.reflect.Method, java.lang.Object) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException;
+  static {};
+}

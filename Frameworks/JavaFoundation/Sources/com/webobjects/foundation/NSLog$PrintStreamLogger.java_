@@ -1,0 +1,20 @@
+Compiled from "NSLog.java"
+public class com.webobjects.foundation.NSLog$PrintStreamLogger extends com.webobjects.foundation.NSLog$Logger {
+  protected java.lang.String _prefixInfo;
+  protected java.io.PrintStream _stream;
+  private static final java.lang.String _defaultFormatString;
+  private static final java.util.TimeZone _tz;
+  private long _lastVerboseLogTime;
+  private java.lang.String _lastTimestampText;
+  public com.webobjects.foundation.NSLog$PrintStreamLogger();
+  public com.webobjects.foundation.NSLog$PrintStreamLogger(java.io.PrintStream);
+  public void _setPrefixInfo(java.lang.String);
+  protected java.lang.String _verbosePrefix();
+  public synchronized void appendln();
+  public synchronized void appendln(java.lang.Throwable);
+  public synchronized void appendln(java.lang.Object);
+  public void flush();
+  public java.io.PrintStream printStream();
+  public void setPrintStream(java.io.PrintStream);
+  static {};
+}

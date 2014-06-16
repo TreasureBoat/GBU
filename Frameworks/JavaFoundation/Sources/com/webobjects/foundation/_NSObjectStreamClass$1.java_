@@ -1,0 +1,5 @@
+Compiled from "_NSObjectStreamClass.java"
+class com.webobjects.foundation._NSObjectStreamClass$1 implements java.security.PrivilegedAction<java.lang.Object> {
+  com.webobjects.foundation._NSObjectStreamClass$1();
+  public java.lang.Object run();
+}

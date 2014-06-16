@@ -1,0 +1,6 @@
+Compiled from "_NSSerialClassReflector.java"
+class com.webobjects.foundation._NSSerialClassReflector$2 implements java.util.Comparator<java.lang.Object> {
+  final com.webobjects.foundation._NSSerialClassReflector this$0;
+  com.webobjects.foundation._NSSerialClassReflector$2(com.webobjects.foundation._NSSerialClassReflector);
+  public int compare(java.lang.Object, java.lang.Object);
+}

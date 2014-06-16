@@ -1,0 +1,26 @@
+Compiled from "_NSSerialClassReflector.java"
+public class com.webobjects.foundation._NSSerialClassReflector {
+  private static final java.security.Permission XMLSerializationAccessPermission;
+  private static final com.webobjects.foundation._NSSerialClassReflector$Factory _factory;
+  private java.lang.Class _cl;
+  private boolean _s_zable;
+  private boolean _e_zable;
+  private com.webobjects.foundation._NSSerialFieldDesc[] _fieldDescs;
+  private java.lang.reflect.Method[] _methodsForSerialization;
+  static final int WRITE_OBJECT;
+  static final int READ_OBJECT;
+  static final int WRITE_REPLACE;
+  static final int READ_RESOLVE;
+  private final int NUM_MTDS;
+  static com.webobjects.foundation._NSSerialClassReflector createClassReflector(java.lang.Class);
+  com.webobjects.foundation._NSSerialClassReflector();
+  void init(java.lang.Class);
+  private com.webobjects.foundation._NSSerialFieldDesc[] serialPersistentFields();
+  private com.webobjects.foundation._NSSerialFieldDesc[] defaultSerialFields();
+  private java.lang.reflect.Method privateMethod(java.lang.String, java.lang.Class[], java.lang.Class);
+  private java.lang.reflect.Method inheritableMethod(java.lang.String, java.lang.Class[], java.lang.Class);
+  public static com.webobjects.foundation._NSSerialClassReflector$Factory factory();
+  public com.webobjects.foundation._NSSerialFieldDesc[] serializableFields();
+  public java.lang.reflect.Method[] methodsForSerialization();
+  static {};
+}

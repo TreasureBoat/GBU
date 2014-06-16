@@ -1,0 +1,5 @@
+Compiled from "NSCoding.java"
+public class com.webobjects.foundation.NSCoding$_FloatSupport extends com.webobjects.foundation.NSCoding$_NumberSupport {
+  public com.webobjects.foundation.NSCoding$_FloatSupport();
+  public void encodeWithCoder(java.lang.Object, com.webobjects.foundation.NSCoder);
+}

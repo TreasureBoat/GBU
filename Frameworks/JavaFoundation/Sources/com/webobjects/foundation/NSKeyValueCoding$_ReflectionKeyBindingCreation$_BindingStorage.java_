@@ -1,0 +1,7 @@
+Compiled from "NSKeyValueCoding.java"
+class com.webobjects.foundation.NSKeyValueCoding$_ReflectionKeyBindingCreation$_BindingStorage {
+  com.webobjects.foundation.NSKeyValueCoding$_KeyBinding[] _keyGetBindings;
+  com.webobjects.foundation.NSKeyValueCoding$_KeyBinding[] _keySetBindings;
+  public com.webobjects.foundation.NSKeyValueCoding$_ReflectionKeyBindingCreation$_BindingStorage();
+  public java.lang.String toString();
+}

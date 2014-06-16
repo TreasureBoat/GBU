@@ -1,0 +1,7 @@
+Compiled from "NSValidation.java"
+public class com.webobjects.foundation.NSValidation$_MethodBinding extends com.webobjects.foundation.NSValidation$_ValidationBinding {
+  protected java.lang.reflect.Method _method;
+  public com.webobjects.foundation.NSValidation$_MethodBinding(java.lang.Class<? extends java.lang.Object>, java.lang.String, java.lang.reflect.Method);
+  public java.lang.Object validateValueOnObject(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSValidation$ValidationException;
+  public java.lang.String toString();
+}

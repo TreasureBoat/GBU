@@ -1,0 +1,16 @@
+Compiled from "NSMutableArray.java"
+class com.webobjects.foundation.SubList$1 implements java.util.ListIterator<E> {
+  private java.util.ListIterator<E> _supportingListIterator;
+  final int val$index;
+  final com.webobjects.foundation.SubList this$0;
+  com.webobjects.foundation.SubList$1(com.webobjects.foundation.SubList, int);
+  public boolean hasNext();
+  public E next();
+  public boolean hasPrevious();
+  public E previous();
+  public int nextIndex();
+  public int previousIndex();
+  public void remove();
+  public void set(E);
+  public void add(E);
+}

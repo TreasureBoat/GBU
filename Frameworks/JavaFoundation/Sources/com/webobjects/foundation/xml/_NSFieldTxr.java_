@@ -1,0 +1,14 @@
+Compiled from "_NSFieldTxr.java"
+final class com.webobjects.foundation.xml._NSFieldTxr extends com.webobjects.foundation.xml._NSTagTransformer implements com.webobjects.foundation.xml.NSXMLObjectStreamConstants {
+  private static com.webobjects.foundation._NSMutableIntegerDictionary TYPESTRING_TO_CODE;
+  private static com.webobjects.foundation.NSMutableDictionary TYPE_TO_CLASS_SIG;
+  private static com.webobjects.foundation.NSMutableDictionary TYPE_TO_FIELD_SIG;
+  private com.webobjects.foundation.xml._NSClassTxr _classTxr;
+  private static java.lang.String classSignature(java.lang.String);
+  static java.lang.String arrayClassSignature(java.lang.String, char[]);
+  private static java.lang.String arrayFieldSignature(java.lang.String);
+  private static java.lang.String arraySig(java.lang.String, java.lang.StringBuffer);
+  public com.webobjects.foundation.xml._NSFieldTxr(com.webobjects.foundation.xml._NSTransformHandler, com.webobjects.foundation.xml._NSTagTransformer);
+  public void handleStart(java.lang.String, org.xml.sax.Attributes) throws java.io.IOException;
+  static {};
+}

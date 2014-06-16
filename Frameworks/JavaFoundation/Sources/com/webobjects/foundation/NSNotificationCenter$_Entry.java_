@@ -1,0 +1,10 @@
+Compiled from "NSNotificationCenter.java"
+class com.webobjects.foundation.NSNotificationCenter$_Entry extends com.webobjects.foundation._NSWeakMutableCollection$_NSWeakMutableCollectionReference<java.lang.Object> {
+  java.lang.reflect.Method _method;
+  public com.webobjects.foundation.NSNotificationCenter$_Entry(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.ref.ReferenceQueue<java.lang.Object>);
+  public void invokeMethod(com.webobjects.foundation.NSNotification);
+  public boolean equals(java.lang.Object);
+  public java.lang.Object observer();
+  public java.lang.reflect.Method method();
+  public java.lang.String toString();
+}

@@ -1,0 +1,29 @@
+Compiled from "NSPropertyListSerialization.java"
+public final class com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type extends java.lang.Enum<com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type> {
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type PLIST;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type STRING;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type KEY;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type DATA;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type DATE;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type INTEGER;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type REAL;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type BOOLEAN;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type ARRAY;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type DICTIONARY;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type TRUE;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type FALSE;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type UNKNOWN;
+  java.lang.String _qName;
+  java.lang.String _openTag;
+  java.lang.String _closeTag;
+  private static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type[] $VALUES;
+  public static final com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type[] values();
+  public static com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type valueOf(java.lang.String);
+  private com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type(java.lang.String, boolean);
+  public java.lang.String qName();
+  public java.lang.String openTag();
+  public java.lang.String closeTag();
+  public static com.webobjects.foundation.NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type typeForName(java.lang.String);
+  public java.lang.String toString();
+  static {};
+}

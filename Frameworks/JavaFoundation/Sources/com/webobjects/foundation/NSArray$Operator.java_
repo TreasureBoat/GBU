@@ -1,0 +1,4 @@
+Compiled from "NSArray.java"
+public interface com.webobjects.foundation.NSArray$Operator {
+  public abstract java.lang.Object compute(com.webobjects.foundation.NSArray, java.lang.String);
+}

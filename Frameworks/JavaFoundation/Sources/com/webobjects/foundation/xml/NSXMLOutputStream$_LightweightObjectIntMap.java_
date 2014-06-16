@@ -1,0 +1,18 @@
+Compiled from "NSXMLOutputStream.java"
+final class com.webobjects.foundation.xml.NSXMLOutputStream$_LightweightObjectIntMap {
+  private int _nextInt;
+  private int _threshold;
+  private float _loadFactor;
+  private int[] _spine;
+  private int[] _next;
+  private java.lang.Object[] _objs;
+  private void insert(java.lang.Object, int);
+  private void growSpine();
+  private void growEntries();
+  private int hash(java.lang.Object);
+  com.webobjects.foundation.xml.NSXMLOutputStream$_LightweightObjectIntMap(int, float);
+  int assign(java.lang.Object);
+  int lookup(java.lang.Object);
+  void clear();
+  int size();
+}

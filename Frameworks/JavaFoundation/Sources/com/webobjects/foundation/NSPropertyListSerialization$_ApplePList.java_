@@ -1,0 +1,44 @@
+Compiled from "NSPropertyListSerialization.java"
+public class com.webobjects.foundation.NSPropertyListSerialization$_ApplePList extends com.webobjects.foundation.NSPropertyListSerialization$_PListParser {
+  private int _lineNumber;
+  private int _startOfLineCharIndex;
+  private int _savedIndex;
+  private int _savedLineNumber;
+  private int _savedStartOfLineCharIndex;
+  private static final int _C_NON_COMMENT_OR_SPACE;
+  private static final int _C_WHITESPACE;
+  private static final int _C_SINGLE_LINE_COMMENT;
+  private static final int _C_MULTI_LINE_COMMENT;
+  private static final int[] NSToPrecompUnicodeTable;
+  public com.webobjects.foundation.NSPropertyListSerialization$_ApplePList();
+  public com.webobjects.foundation.NSPropertyListSerialization$_ApplePList(boolean);
+  private void _saveIndexes(int, int, int);
+  private java.lang.String _savedIndexesAsString();
+  public static boolean propertyListsAreEqual(java.lang.Object, java.lang.Object);
+  public static java.lang.Object copyPropertyList(java.lang.Object);
+  public java.lang.String stringFromPropertyList(java.lang.Object);
+  public java.lang.Object parseStringIntoPlist(java.lang.String);
+  private void _appendObjectToStringBuffer(java.lang.Object, java.lang.StringBuffer, int);
+  private void _appendStringToStringBuffer(java.lang.String, java.lang.StringBuffer, int);
+  private void _appendDataToStringBuffer(com.webobjects.foundation.NSData, java.lang.StringBuffer, int);
+  private void _appendArrayToStringBuffer(com.webobjects.foundation.NSArray, java.lang.StringBuffer, int);
+  private void _appendDictionaryToStringBuffer(com.webobjects.foundation.NSDictionary, java.lang.StringBuffer, int);
+  private final char _hexDigitForNibble(byte);
+  private int _readObjectIntoObjectReference(char[], int, java.lang.Object[]);
+  private int _readUnquotedStringIntoStringBuffer(char[], int, java.lang.StringBuffer);
+  private int _readQuotedStringIntoStringBuffer(char[], int, java.lang.StringBuffer);
+  private int _lengthOfData(char[], int);
+  private int _readDataContentsIntoData(char[], int, com.webobjects.foundation.NSMutableData);
+  private int _readArrayContentsIntoArray(char[], int, com.webobjects.foundation.NSMutableArray);
+  private int _readDictionaryContentsIntoDictionary(char[], int, com.webobjects.foundation.NSMutableDictionary);
+  private int _checkForWhitespaceOrComment(char[], int);
+  private int _skipWhitespaceAndComments(char[], int);
+  private int _processWhitespace(char[], int);
+  private int _processSingleLineComment(char[], int);
+  private int _processMultiLineComment(char[], int);
+  private final byte _nibbleForHexDigit(char);
+  private final boolean _isHexDigit(char);
+  private final boolean _isWhitespace(char);
+  private char _nsToUnicode(int);
+  static {};
+}

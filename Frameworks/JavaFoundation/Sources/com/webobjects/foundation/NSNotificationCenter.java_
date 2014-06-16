@@ -1,0 +1,27 @@
+Compiled from "NSNotificationCenter.java"
+public class com.webobjects.foundation.NSNotificationCenter {
+  public static final java.lang.Class _CLASS;
+  private static com.webobjects.foundation.NSNotificationCenter _defaultCenter;
+  private static final java.util.WeakHashMap _byObjectPlaceholder;
+  private static final com.webobjects.foundation._NSWeakMutableArray _byNamePlaceholder;
+  private java.util.WeakHashMap<java.lang.Object, com.webobjects.foundation._NSWeakMutableArray<java.lang.Object, com.webobjects.foundation.NSNotificationCenter$_Entry>> _byObject;
+  private com.webobjects.foundation._NSWeakMutableSet<java.lang.Object, com.webobjects.foundation.NSNotificationCenter$_Entry> _omniscient;
+  private com.webobjects.foundation.NSMutableDictionary _byName;
+  public static com.webobjects.foundation.NSNotificationCenter defaultCenter();
+  protected com.webobjects.foundation.NSNotificationCenter();
+  public java.lang.String toString();
+  protected com.webobjects.foundation.NSNotificationCenter$_Entry _getEntry(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.ref.ReferenceQueue<java.lang.Object>);
+  private void _checkObserverAndSelector(java.lang.Object, com.webobjects.foundation.NSSelector);
+  public synchronized void addOmniscientObserver(java.lang.Object, com.webobjects.foundation.NSSelector);
+  public synchronized void addObserver(java.lang.Object, com.webobjects.foundation.NSSelector, java.lang.String, java.lang.Object);
+  private void _removeReferencesWithReferentFromByObjectDict(java.lang.Object, java.util.WeakHashMap<java.lang.Object, com.webobjects.foundation._NSWeakMutableArray<java.lang.Object, com.webobjects.foundation.NSNotificationCenter$_Entry>>);
+  private void _removeReferencesWithReferentFromWeakArray(java.lang.Object, com.webobjects.foundation._NSWeakMutableArray<java.lang.Object, com.webobjects.foundation.NSNotificationCenter$_Entry>);
+  public synchronized void removeOmniscientObserver(java.lang.Object);
+  public void removeObserver(java.lang.Object);
+  public synchronized void removeObserver(java.lang.Object, java.lang.String, java.lang.Object);
+  private static void _addObserversFromArrayToSet(com.webobjects.foundation._NSWeakMutableArray, com.webobjects.foundation.NSMutableSet);
+  public void postNotification(com.webobjects.foundation.NSNotification);
+  public void postNotification(java.lang.String, java.lang.Object);
+  public void postNotification(java.lang.String, java.lang.Object, com.webobjects.foundation.NSDictionary);
+  static {};
+}

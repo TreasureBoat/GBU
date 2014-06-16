@@ -1,0 +1,26 @@
+Compiled from "_NSArrayUtilities.java"
+public final class com.webobjects.foundation._NSArrayUtilities {
+  private static final int _SCAN_THRESHOLD;
+  public static final com.webobjects.foundation.NSSelector<java.lang.String> _nameSelector;
+  public com.webobjects.foundation._NSArrayUtilities();
+  public static java.lang.Object arrayWithGCDBase(com.webobjects.foundation.NSArray);
+  public static java.lang.Object arrayWithGCDBase(com.webobjects.foundation.NSSet);
+  public static java.lang.Object arrayWithGCDBase(java.lang.Object[]);
+  public static com.webobjects.foundation.NSArray<java.lang.Integer> indexesForObjectsIndenticalTo(com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray);
+  public static com.webobjects.foundation.NSArray objectsAtIndexes(com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray<java.lang.Number>);
+  public static com.webobjects.foundation.NSArray<java.lang.Object> closestMatchingIndexes(com.webobjects.foundation.NSArray, int, boolean);
+  public static com.webobjects.foundation.NSArray arrayExcludingObjectsInArray(com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray);
+  public static boolean addObjectIfAbsent(com.webobjects.foundation.NSMutableArray<java.lang.Object>, java.lang.Object);
+  public static <T> com.webobjects.foundation.NSMutableArray<T> resultsOfPerformingSelector(com.webobjects.foundation.NSArray, com.webobjects.foundation.NSSelector<T>);
+  public static <T> com.webobjects.foundation.NSArray<T> arrayExcludingObjectsFromArray(com.webobjects.foundation.NSArray<? extends T>, com.webobjects.foundation.NSArray<? extends T>);
+  public static boolean containsIdenticalObjectsInArray(com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray);
+  public static com.webobjects.foundation.NSArray<java.lang.Object> arrayWithValuesForKey(com.webobjects.foundation.NSArray, java.lang.String);
+  private static java.lang.Object scanRange(java.lang.Object[], java.lang.String, int, int);
+  private static java.lang.Object objectInRange(java.lang.Object[], java.lang.String, int, int);
+  public static java.lang.Object objectInSortedArrayWithName(com.webobjects.foundation.NSArray, java.lang.String);
+  public static com.webobjects.foundation.NSMutableArray mutablePropertyList(com.webobjects.foundation.NSArray);
+  public static <T> void performSelectorWithEachObjectInArray(java.lang.Object, com.webobjects.foundation.NSSelector<T>, com.webobjects.foundation.NSArray);
+  public static <T> com.webobjects.foundation.NSArray<T> resultsOfPerformingSelectorWithEachObjectInArray(java.lang.Object, com.webobjects.foundation.NSSelector<T>, com.webobjects.foundation.NSArray);
+  public static com.webobjects.foundation.NSMutableArray mutableArrayFromArray(com.webobjects.foundation.NSArray);
+  static {};
+}

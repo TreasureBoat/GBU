@@ -1,0 +1,7 @@
+Compiled from "_NSUtilities.java"
+public class com.webobjects.foundation._NSUtilities$JavaArchiveFilter implements java.io.FilenameFilter {
+  private static final java.lang.String JAR;
+  private static final java.lang.String ZIP;
+  public com.webobjects.foundation._NSUtilities$JavaArchiveFilter();
+  public boolean accept(java.io.File, java.lang.String);
+}

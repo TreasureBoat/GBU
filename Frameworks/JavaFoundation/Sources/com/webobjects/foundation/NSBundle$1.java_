@@ -1,0 +1,6 @@
+Compiled from "NSBundle.java"
+class com.webobjects.foundation.NSBundle$1 implements com.webobjects.foundation._NSUtilities$_ResourceSearcher {
+  com.webobjects.foundation.NSBundle$1();
+  public java.lang.Class _searchForClassWithName(java.lang.String);
+  public java.net.URL _searchPathURLForResourceWithName(java.lang.Class, java.lang.String, java.lang.String);
+}

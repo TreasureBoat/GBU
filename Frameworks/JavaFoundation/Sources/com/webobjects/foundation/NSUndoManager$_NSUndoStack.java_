@@ -1,0 +1,26 @@
+Compiled from "NSUndoManager.java"
+public class com.webobjects.foundation.NSUndoManager$_NSUndoStack {
+  private int _max;
+  private int _count;
+  private int _nestingLevel;
+  com.webobjects.foundation.NSUndoManager$_NSUndoObject _head;
+  public void _removeBottom();
+  public com.webobjects.foundation.NSUndoManager$_NSUndoStack();
+  public int max();
+  public int count();
+  public void setMax(int);
+  public void push(com.webobjects.foundation.NSUndoManager$_NSUndoObject);
+  public com.webobjects.foundation.NSUndoManager$_NSUndoObject popUndoObject();
+  public com.webobjects.foundation.NSUndoManager$_NSUndoBeginMark _beginMark();
+  public void setGroupIdentifier(java.lang.Object);
+  public java.lang.Object groupIdentifier();
+  public com.webobjects.foundation.NSUndoManager$_NSUndoObject topUndoObject();
+  public void markBegin();
+  public void markEnd();
+  public boolean popAndInvoke();
+  public int nestingLevel();
+  public void removeAllObjects();
+  public void removeAllObjectsWithTarget(java.lang.Object);
+  public void removeObject(com.webobjects.foundation.NSUndoManager$_NSUndoObject);
+  public java.lang.String toString();
+}

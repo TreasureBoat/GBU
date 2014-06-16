@@ -1,0 +1,8 @@
+Compiled from "NSArray.java"
+class com.webobjects.foundation.NSArray$_Operator {
+  public com.webobjects.foundation.NSArray$_Operator();
+  protected java.lang.Object _operationValue(java.lang.Object, java.lang.String);
+  private java.math.BigDecimal _bigDecimalForValue(java.lang.Object);
+  java.math.BigDecimal _sum(com.webobjects.foundation.NSArray, java.lang.String);
+  java.lang.Object _minOrMaxValue(java.lang.Object, java.lang.Object, boolean);
+}

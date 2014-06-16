@@ -1,0 +1,13 @@
+Compiled from "NSKeyValueCoding.java"
+public class com.webobjects.foundation.NSKeyValueCoding$_FieldBinding extends com.webobjects.foundation.NSKeyValueCoding$_KeyBinding {
+  protected java.lang.reflect.Field _field;
+  protected boolean _isScalar;
+  protected com.webobjects.foundation.NSKeyValueCoding$ValueAccessor _valueAccessor;
+  public com.webobjects.foundation.NSKeyValueCoding$_FieldBinding(java.lang.Class, java.lang.String, java.lang.reflect.Field, com.webobjects.foundation.NSKeyValueCoding$ValueAccessor);
+  public java.lang.Class valueType();
+  public boolean isScalarProperty();
+  public java.lang.Object valueInObject(java.lang.Object);
+  protected void _setValidatedValueInObject(java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException;
+  public void setValueInObject(java.lang.Object, java.lang.Object);
+  public java.lang.String toString();
+}

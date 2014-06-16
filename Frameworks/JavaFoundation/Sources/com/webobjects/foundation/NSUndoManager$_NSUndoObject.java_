@@ -1,0 +1,12 @@
+Compiled from "NSUndoManager.java"
+class com.webobjects.foundation.NSUndoManager$_NSUndoObject {
+  com.webobjects.foundation.NSUndoManager$_NSUndoObject next;
+  com.webobjects.foundation.NSUndoManager$_NSUndoObject previous;
+  protected java.lang.Object _target;
+  public com.webobjects.foundation.NSUndoManager$_NSUndoObject();
+  public com.webobjects.foundation.NSUndoManager$_NSUndoObject(java.lang.Object);
+  public boolean isBeginMark();
+  public boolean isEndMark();
+  public void invoke();
+  public java.lang.Object target();
+}

@@ -1,0 +1,45 @@
+Compiled from "_NSObjectStreamClass.java"
+public abstract class com.webobjects.foundation._NSObjectStreamClass implements java.io.Serializable {
+  private static com.webobjects.foundation._NSSerialClassReflector$Factory _reflFactory;
+  private static java.util.WeakHashMap<java.lang.Class<?>, com.webobjects.foundation._NSObjectStreamClass[]> _cachedDescs;
+  public static final java.io.ObjectStreamField[] NO_FIELDS;
+  protected static java.lang.reflect.Constructor objectStreamClassCtor;
+  protected java.lang.Class clazz;
+  protected java.lang.String name;
+  protected long uid;
+  protected boolean serializable;
+  protected boolean externalizable;
+  protected boolean isProxy;
+  protected com.webobjects.foundation._NSObjectStreamClass superDesc;
+  protected com.webobjects.foundation._NSSerialClassReflector reflector;
+  protected com.webobjects.foundation._NSSerialFieldDesc[] fieldDescs;
+  protected java.lang.reflect.Method[] methodsForSerialization;
+  protected int numPrimFields;
+  protected int numObjFields;
+  protected com.webobjects.foundation._NSMutableIntegerDictionary primFieldPos;
+  protected com.webobjects.foundation._NSMutableIntegerDictionary objFieldPos;
+  protected com.webobjects.foundation._NSObjectStreamClass[] hierarchy;
+  private com.webobjects.foundation._NSObjectStreamClass cloneFor(java.lang.Class) throws java.io.InvalidClassException;
+  private void initForPutFields();
+  protected com.webobjects.foundation._NSObjectStreamClass();
+  protected com.webobjects.foundation._NSObjectStreamClass(java.lang.Class);
+  protected long serialVersionUID(java.lang.Class);
+  public com.webobjects.foundation._NSSerialFieldDesc[] serializableFields();
+  public boolean hasWriteObject();
+  public java.lang.reflect.Method writeObjectMethod();
+  public boolean hasWriteReplace();
+  public java.lang.reflect.Method writeReplaceMethod();
+  public com.webobjects.foundation._NSObjectStreamClass[] classHierarchy() throws java.io.InvalidClassException;
+  public int numPrimFields();
+  public int numObjFields();
+  public int primFieldPosition(java.lang.String);
+  public int objFieldPosition(java.lang.String);
+  public boolean isProxy();
+  public com.webobjects.foundation._NSObjectStreamClass superDesc();
+  public java.lang.Class forClass();
+  public java.lang.String getName();
+  public long getSerialVersionUID();
+  public static com.webobjects.foundation._NSObjectStreamClass lookup(java.lang.Class);
+  public java.lang.String toString();
+  static {};
+}

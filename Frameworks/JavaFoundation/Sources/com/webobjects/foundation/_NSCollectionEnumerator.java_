@@ -1,0 +1,13 @@
+Compiled from "_NSCollectionEnumerator.java"
+public class com.webobjects.foundation._NSCollectionEnumerator<E> implements java.util.Enumeration<E> {
+  public static final java.lang.Class _CLASS;
+  private E[] _array;
+  private byte[] _flags;
+  private int _limit;
+  private int _count;
+  private int _index;
+  public com.webobjects.foundation._NSCollectionEnumerator(E[], byte[], int);
+  public boolean hasMoreElements();
+  public E nextElement();
+  static {};
+}

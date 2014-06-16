@@ -1,0 +1,20 @@
+Compiled from "NSValidation.java"
+public class com.webobjects.foundation.NSValidation$ValidationException extends java.lang.RuntimeException {
+  private static final long serialVersionUID;
+  public static final java.lang.Class _CLASS;
+  public static final java.lang.String ValidatedObjectUserInfoKey;
+  public static final java.lang.String ValidatedKeyUserInfoKey;
+  public static final java.lang.String AdditionalExceptionsKey;
+  private com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.Object> _userInfo;
+  public static com.webobjects.foundation.NSValidation$ValidationException aggregateExceptionWithExceptions(com.webobjects.foundation.NSArray<com.webobjects.foundation.NSValidation$ValidationException>);
+  public com.webobjects.foundation.NSValidation$ValidationException(java.lang.String);
+  public com.webobjects.foundation.NSValidation$ValidationException(java.lang.String, java.lang.Object, java.lang.String);
+  public com.webobjects.foundation.NSValidation$ValidationException(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.Object>);
+  public java.lang.Object object();
+  public java.lang.String key();
+  public com.webobjects.foundation.NSArray<com.webobjects.foundation.NSValidation$ValidationException> additionalExceptions();
+  public com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.Object> userInfo();
+  public com.webobjects.foundation.NSValidation$ValidationException exceptionAddingEntriesToUserInfo(java.lang.Object, java.lang.String);
+  public com.webobjects.foundation.NSValidation$ValidationException exceptionWithObjectAndKey(java.lang.Object, java.lang.String);
+  static {};
+}

@@ -1,0 +1,14 @@
+Compiled from "NSCoding.java"
+public abstract class com.webobjects.foundation.NSCoding$Support {
+  private static com.webobjects.foundation.NSMutableDictionary _supportByClass;
+  private static final java.lang.String _UTF8StringEncoding;
+  public com.webobjects.foundation.NSCoding$Support();
+  public static com.webobjects.foundation.NSCoding$Support supportForClass(java.lang.Class);
+  public static void setSupportForClass(com.webobjects.foundation.NSCoding$Support, java.lang.Class);
+  public java.lang.Class classForCoder(java.lang.Object);
+  public abstract void encodeWithCoder(java.lang.Object, com.webobjects.foundation.NSCoder);
+  public abstract java.lang.Object decodeObject(com.webobjects.foundation.NSCoder);
+  protected static void _encodeUTF8(java.lang.String, com.webobjects.foundation.NSCoder);
+  protected static java.lang.String _decodeUTF8(com.webobjects.foundation.NSCoder);
+  static {};
+}

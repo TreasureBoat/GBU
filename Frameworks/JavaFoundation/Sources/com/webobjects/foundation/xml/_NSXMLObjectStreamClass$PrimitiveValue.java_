@@ -1,0 +1,6 @@
+Compiled from "_NSXMLObjectStreamClass.java"
+class com.webobjects.foundation.xml._NSXMLObjectStreamClass$PrimitiveValue {
+  public java.lang.String tag;
+  public java.lang.String zeroValue;
+  com.webobjects.foundation.xml._NSXMLObjectStreamClass$PrimitiveValue(java.lang.String, java.lang.String);
+}

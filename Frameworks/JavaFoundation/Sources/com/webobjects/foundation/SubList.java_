@@ -1,0 +1,42 @@
+Compiled from "NSMutableArray.java"
+class com.webobjects.foundation.SubList<E> extends java.util.ArrayList<E> {
+  private static final long serialVersionUID;
+  public static final int NotFound;
+  java.util.List<E> _supportingList;
+  java.util.List<E> _parentList;
+  int _offset;
+  int _size;
+  com.webobjects.foundation.SubList(java.util.List<E>, int, int);
+  protected com.webobjects.foundation.SubList(com.webobjects.foundation.NSMutableArray<E>, com.webobjects.foundation.NSMutableArray<E>, int, int);
+  public E set(int, E);
+  public E get(int);
+  private final int _findObjectInParentArray(int, int, java.lang.Object, boolean);
+  private final int _findObjectInSubList(int, int, java.lang.Object, boolean);
+  public boolean contains(java.lang.Object);
+  public boolean containsAll(java.util.Collection);
+  public boolean equals(java.lang.Object);
+  private boolean _equalsArray(java.util.List);
+  public int size();
+  public int indexOf(java.lang.Object);
+  public boolean isEmpty();
+  public boolean retainAll(java.util.Collection<?>);
+  public E remove(int);
+  public boolean remove(java.lang.Object);
+  public boolean removeAll(java.util.Collection<?>);
+  public void clear();
+  public java.lang.Object clone();
+  protected void removeRange(int, int);
+  public void add(int, E);
+  public boolean add(E);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public boolean addAll(int, java.util.Collection<? extends E>);
+  public java.lang.Object[] objectsInRange(com.webobjects.foundation.NSRange);
+  public java.lang.Object[] toArray();
+  public <T> T[] toArray(T[]);
+  public java.lang.String toString();
+  public java.util.Iterator<E> iterator();
+  public int lastIndexOf(java.lang.Object);
+  public java.util.ListIterator<E> listIterator(int);
+  private void rangeCheck(int, int);
+  private void rangeCheck(int);
+}

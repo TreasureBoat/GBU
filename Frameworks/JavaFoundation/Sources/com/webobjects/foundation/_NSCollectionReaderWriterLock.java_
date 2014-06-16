@@ -1,0 +1,15 @@
+Compiled from "_NSCollectionReaderWriterLock.java"
+public class com.webobjects.foundation._NSCollectionReaderWriterLock {
+  public static final java.lang.Class _CLASS;
+  private short _readingCounter;
+  private short _writingCounter;
+  private java.lang.ref.WeakReference<java.lang.Thread> _writingThread;
+  private short _waitingWriters;
+  private short _waitingReaders;
+  public com.webobjects.foundation._NSCollectionReaderWriterLock();
+  public synchronized void startReading();
+  public synchronized void endReading();
+  public void startWriting();
+  public synchronized void endWriting();
+  static {};
+}

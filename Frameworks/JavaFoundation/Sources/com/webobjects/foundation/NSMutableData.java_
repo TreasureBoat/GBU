@@ -1,0 +1,30 @@
+Compiled from "NSMutableData.java"
+public class com.webobjects.foundation.NSMutableData extends com.webobjects.foundation.NSData {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final int _DefaultInitialCapacity;
+  protected transient byte[] _immutableCopy;
+  public com.webobjects.foundation.NSMutableData();
+  public com.webobjects.foundation.NSMutableData(int);
+  public com.webobjects.foundation.NSMutableData(byte[]);
+  public com.webobjects.foundation.NSMutableData(byte[], com.webobjects.foundation.NSRange);
+  public com.webobjects.foundation.NSMutableData(byte[], com.webobjects.foundation.NSRange, boolean);
+  public com.webobjects.foundation.NSMutableData(com.webobjects.foundation.NSData);
+  public com.webobjects.foundation.NSMutableData(java.io.InputStream, int) throws java.io.IOException;
+  public com.webobjects.foundation.NSMutableData(java.io.File) throws java.io.IOException;
+  public com.webobjects.foundation.NSMutableData(java.net.URL) throws java.io.IOException;
+  public com.webobjects.foundation.NSMutableData(java.lang.String);
+  public com.webobjects.foundation.NSMutableData(java.lang.String, java.lang.String);
+  protected byte[] immutableBytes();
+  protected com.webobjects.foundation.NSRange immutableRange();
+  public void setLength(int);
+  public void setData(com.webobjects.foundation.NSData);
+  public void resetBytesInRange(com.webobjects.foundation.NSRange);
+  public void appendByte(byte);
+  public void appendBytes(byte[], com.webobjects.foundation.NSRange);
+  public void appendBytes(byte[]);
+  public void appendData(com.webobjects.foundation.NSData);
+  public void increaseLengthBy(int);
+  public java.lang.Object clone();
+  static {};
+}

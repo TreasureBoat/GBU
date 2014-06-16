@@ -1,0 +1,7 @@
+Compiled from "NSXMLOutputStream.java"
+final class com.webobjects.foundation.xml.NSXMLOutputStream$DOMRecursiveInfo {
+  org.w3c.dom.Element _curParent;
+  boolean _leafClass;
+  com.webobjects.foundation.xml.NSXMLOutputStream$DOMRecursiveInfo(org.w3c.dom.Element);
+  com.webobjects.foundation.xml.NSXMLOutputStream$DOMRecursiveInfo(org.w3c.dom.Element, boolean);
+}

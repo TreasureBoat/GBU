@@ -1,0 +1,19 @@
+Compiled from "NSDelayedCallbackCenter.java"
+public class com.webobjects.foundation.NSDelayedCallbackCenter {
+  public static final java.lang.Class _CLASS;
+  private static volatile com.webobjects.foundation.NSDelayedCallbackCenter$_Delegate _delegate;
+  private static final java.util.WeakHashMap<java.lang.Thread, com.webobjects.foundation.NSDelayedCallbackCenter> _centers;
+  private static volatile java.lang.ref.WeakReference<java.lang.Thread> _lastThread;
+  private static volatile com.webobjects.foundation.NSDelayedCallbackCenter _lastCenter;
+  private final com.webobjects.foundation.NSMutableArray<com.webobjects.foundation.NSDelayedCallbackCenter$NSLightInvocation> _queue;
+  public static com.webobjects.foundation.NSDelayedCallbackCenter defaultCenter();
+  public static void _setDelegate(com.webobjects.foundation.NSDelayedCallbackCenter$_Delegate);
+  public static com.webobjects.foundation.NSDelayedCallbackCenter$_Delegate _delegate();
+  private com.webobjects.foundation.NSDelayedCallbackCenter();
+  public void performSelector(com.webobjects.foundation.NSSelector, java.lang.Object, java.lang.Object, int);
+  public void cancelPerformSelector(com.webobjects.foundation.NSSelector, java.lang.Object, java.lang.Object);
+  public void _cancelAllActionsWithTarget(java.lang.Object);
+  public void eventEnded();
+  public void _eventEnded();
+  static {};
+}

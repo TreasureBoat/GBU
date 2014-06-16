@@ -1,0 +1,15 @@
+Compiled from "_NSReadReentrantReaderWriterLock.java"
+public class com.webobjects.foundation._NSReadReentrantReaderWriterLock {
+  public static final java.lang.Class _CLASS;
+  private int _readingCounter;
+  private boolean _readersMustCheck;
+  private boolean _writersMustCheck;
+  private int _waitingWriters;
+  private int _waitingReaders;
+  public com.webobjects.foundation._NSReadReentrantReaderWriterLock();
+  public synchronized void startReading();
+  public synchronized void endReading();
+  public synchronized void startWriting();
+  public synchronized void endWriting();
+  static {};
+}

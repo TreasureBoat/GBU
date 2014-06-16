@@ -1,0 +1,12 @@
+Compiled from "NSNumberFormatter.java"
+class com.webobjects.foundation.NSNumberFormatter$ConstructionBuffer implements java.lang.Cloneable {
+  public char[] mask;
+  public int maskLen;
+  public char[] integerPart;
+  public int integerPartLen;
+  public char[] fractionPart;
+  public int fractionPartLen;
+  com.webobjects.foundation.NSNumberFormatter$ConstructionBuffer();
+  public java.lang.Object clone();
+  public java.lang.String toString();
+}

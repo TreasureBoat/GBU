@@ -1,0 +1,15 @@
+Compiled from "_NSSerialFieldDesc.java"
+public class com.webobjects.foundation._NSSerialFieldDesc {
+  private final java.lang.String _name;
+  private final java.lang.Class _type;
+  private final java.lang.reflect.Field _field;
+  public static java.lang.String sanitizeCharForXML(char, boolean);
+  public com.webobjects.foundation._NSSerialFieldDesc(java.lang.reflect.Field);
+  public com.webobjects.foundation._NSSerialFieldDesc(java.lang.String, java.lang.Class);
+  public final boolean isPrimitive();
+  public final java.lang.Object value(java.lang.Object);
+  public final java.lang.String name();
+  public final java.lang.Class type();
+  public final java.lang.reflect.Field field();
+  public final java.lang.String toString();
+}

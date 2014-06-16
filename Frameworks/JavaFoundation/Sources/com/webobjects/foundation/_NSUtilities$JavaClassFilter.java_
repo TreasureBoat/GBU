@@ -1,0 +1,6 @@
+Compiled from "_NSUtilities.java"
+public class com.webobjects.foundation._NSUtilities$JavaClassFilter implements java.io.FilenameFilter {
+  private static final java.lang.String CLASS_SUFFIX;
+  public com.webobjects.foundation._NSUtilities$JavaClassFilter();
+  public boolean accept(java.io.File, java.lang.String);
+}

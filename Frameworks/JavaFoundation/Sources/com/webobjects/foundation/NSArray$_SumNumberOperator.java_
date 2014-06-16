@@ -1,0 +1,5 @@
+Compiled from "NSArray.java"
+class com.webobjects.foundation.NSArray$_SumNumberOperator extends com.webobjects.foundation.NSArray$_Operator implements com.webobjects.foundation.NSArray$Operator {
+  public com.webobjects.foundation.NSArray$_SumNumberOperator();
+  public java.lang.Object compute(com.webobjects.foundation.NSArray, java.lang.String);
+}

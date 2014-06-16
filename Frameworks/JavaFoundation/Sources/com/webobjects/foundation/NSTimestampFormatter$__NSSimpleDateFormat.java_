@@ -1,0 +1,20 @@
+Compiled from "NSTimestampFormatter.java"
+class com.webobjects.foundation.NSTimestampFormatter$__NSSimpleDateFormat extends java.text.SimpleDateFormat {
+  static final long serialVersionUID;
+  java.lang.String[][] _displayNamesForZones;
+  private java.lang.String _tzPattern;
+  private boolean _tzAtEnd;
+  final com.webobjects.foundation.NSTimestampFormatter this$0;
+  com.webobjects.foundation.NSTimestampFormatter$__NSSimpleDateFormat(com.webobjects.foundation.NSTimestampFormatter);
+  com.webobjects.foundation.NSTimestampFormatter$__NSSimpleDateFormat(com.webobjects.foundation.NSTimestampFormatter, java.lang.String, java.util.Locale);
+  java.lang.String[] _breakPattern();
+  private com.webobjects.foundation.NSRange _zoneSubpatternRange(java.lang.String);
+  private java.lang.String[] _breakString(java.lang.String, java.text.ParsePosition);
+  private boolean _isWhitespace(char);
+  private boolean _isTZPatternPresent(java.lang.String, int);
+  private com.webobjects.foundation.NSTimeZone _parseTZName(java.lang.String, java.text.ParsePosition);
+  public java.lang.StringBuffer format(java.util.Date, java.lang.StringBuffer, java.text.FieldPosition);
+  private java.util.Date _parseTimeInUTC(java.lang.String, java.text.ParsePosition);
+  public java.util.Date _parseInUTC(java.lang.String, java.text.ParsePosition);
+  public java.util.Date parse(java.lang.String, java.text.ParsePosition);
+}

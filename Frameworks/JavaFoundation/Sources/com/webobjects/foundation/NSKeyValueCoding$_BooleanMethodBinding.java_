@@ -1,0 +1,6 @@
+Compiled from "NSKeyValueCoding.java"
+public class com.webobjects.foundation.NSKeyValueCoding$_BooleanMethodBinding extends com.webobjects.foundation.NSKeyValueCoding$_MethodBinding {
+  public com.webobjects.foundation.NSKeyValueCoding$_BooleanMethodBinding(java.lang.Class, java.lang.String, java.lang.reflect.Method, com.webobjects.foundation.NSKeyValueCoding$ValueAccessor);
+  public java.lang.Class valueType();
+  public void setValueInObject(java.lang.Object, java.lang.Object);
+}

@@ -1,0 +1,28 @@
+Compiled from "_NSThreadsafeMutableArray.java"
+public class com.webobjects.foundation._NSThreadsafeMutableArray<E> extends com.webobjects.foundation._NSThreadsafeWrapper implements java.io.Serializable, com.webobjects.foundation.NSKeyValueCoding {
+  public static final java.lang.Class _CLASS;
+  static final long serialVersionUID;
+  private static final java.lang.String SerializationArrayFieldKey;
+  private static final java.lang.Class _NSMutableArrayClass;
+  private final com.webobjects.foundation.NSMutableArray<E> _delegate;
+  private com.webobjects.foundation.NSMutableArray<E> _serializationDelegate;
+  private static final java.io.ObjectStreamField[] serialPersistentFields;
+  public com.webobjects.foundation._NSThreadsafeMutableArray(com.webobjects.foundation.NSMutableArray<E>);
+  public com.webobjects.foundation.NSMutableArray<E> array();
+  public java.util.Enumeration<E> objectEnumerator();
+  public java.lang.String componentsJoinedByString(java.lang.String);
+  public com.webobjects.foundation.NSArray<E> immutableClone();
+  public java.lang.Object clone();
+  public int count();
+  public E objectAtIndex(int);
+  public void addObject(E);
+  public void addObjectIfAbsent(E);
+  public boolean containsObject(java.lang.Object);
+  public void removeObject(java.lang.Object);
+  public java.lang.Object valueForKey(java.lang.String);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+  private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException;
+  private void readObject(java.io.ObjectInputStream) throws java.io.IOException, java.lang.ClassNotFoundException;
+  private java.lang.Object readResolve() throws java.io.ObjectStreamException;
+  static {};
+}

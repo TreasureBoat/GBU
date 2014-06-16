@@ -1,0 +1,8 @@
+Compiled from "NSKeyValueCoding.java"
+public class com.webobjects.foundation.NSKeyValueCoding$MapImplementation {
+  public static final java.lang.Class _CLASS;
+  public static java.lang.Object valueForKey(java.util.Map, java.lang.String);
+  public static void takeValueForKey(java.util.Map, java.lang.Object, java.lang.String);
+  com.webobjects.foundation.NSKeyValueCoding$MapImplementation();
+  static {};
+}

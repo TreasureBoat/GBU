@@ -1,0 +1,10 @@
+Compiled from "NSMultiReaderLock.java"
+class com.webobjects.foundation.NSMultiReaderLock$ConditionLock {
+  private com.webobjects.foundation.NSLock _lock;
+  final com.webobjects.foundation.NSMultiReaderLock this$0;
+  public com.webobjects.foundation.NSMultiReaderLock$ConditionLock(com.webobjects.foundation.NSMultiReaderLock, com.webobjects.foundation.NSLock);
+  public void await();
+  public boolean await(long);
+  public synchronized void signal();
+  public synchronized void broadcast();
+}

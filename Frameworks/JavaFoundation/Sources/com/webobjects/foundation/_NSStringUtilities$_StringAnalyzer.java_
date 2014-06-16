@@ -1,0 +1,16 @@
+Compiled from "_NSStringUtilities.java"
+class com.webobjects.foundation._NSStringUtilities$_StringAnalyzer {
+  protected java.lang.String _string;
+  protected int _stringLength;
+  protected int _location;
+  protected char _currentCharacter;
+  public com.webobjects.foundation._NSStringUtilities$_StringAnalyzer(java.lang.String);
+  public java.lang.String string();
+  public boolean isAtEnd();
+  public void setLocation(int);
+  public int location();
+  public char currentCharacter();
+  public void advance();
+  public char nextCharacter();
+  public void refreshCurrentCharacter();
+}

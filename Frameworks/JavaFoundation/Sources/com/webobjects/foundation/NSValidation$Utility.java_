@@ -1,0 +1,8 @@
+Compiled from "NSValidation.java"
+public class com.webobjects.foundation.NSValidation$Utility {
+  public static final java.lang.Class _CLASS;
+  com.webobjects.foundation.NSValidation$Utility();
+  public static java.lang.Object validateValueForKey(java.lang.Object, java.lang.Object, java.lang.String) throws com.webobjects.foundation.NSValidation$ValidationException;
+  public static java.lang.Object validateTakeValueForKeyPath(java.lang.Object, java.lang.Object, java.lang.String) throws com.webobjects.foundation.NSValidation$ValidationException;
+  static {};
+}

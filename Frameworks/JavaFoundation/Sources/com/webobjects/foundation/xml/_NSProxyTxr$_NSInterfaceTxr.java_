@@ -1,0 +1,6 @@
+Compiled from "_NSProxyTxr.java"
+final class com.webobjects.foundation.xml._NSProxyTxr$_NSInterfaceTxr extends com.webobjects.foundation.xml._NSTagTransformer {
+  private com.webobjects.foundation.xml._NSProxyTxr _proxyTxr;
+  public com.webobjects.foundation.xml._NSProxyTxr$_NSInterfaceTxr(com.webobjects.foundation.xml._NSTransformHandler, com.webobjects.foundation.xml._NSProxyTxr);
+  public void handleStart(java.lang.String, org.xml.sax.Attributes) throws java.io.IOException;
+}

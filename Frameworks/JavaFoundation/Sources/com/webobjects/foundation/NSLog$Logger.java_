@@ -1,0 +1,27 @@
+Compiled from "NSLog.java"
+public abstract class com.webobjects.foundation.NSLog$Logger {
+  protected int debugLevel;
+  protected boolean isEnabled;
+  protected boolean isVerbose;
+  public com.webobjects.foundation.NSLog$Logger();
+  public int allowedDebugLevel();
+  public void appendln(boolean);
+  public void appendln(byte);
+  public void appendln(byte[]);
+  public void appendln(char);
+  public void appendln(char[]);
+  public void appendln(double);
+  public void appendln(float);
+  public void appendln(int);
+  public void appendln(long);
+  public void appendln(short);
+  public void appendln(java.lang.Throwable);
+  public abstract void appendln(java.lang.Object);
+  public abstract void appendln();
+  public abstract void flush();
+  public boolean isEnabled();
+  public boolean isVerbose();
+  public void setAllowedDebugLevel(int);
+  public void setIsEnabled(boolean);
+  public void setIsVerbose(boolean);
+}

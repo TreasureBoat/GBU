@@ -1,0 +1,13 @@
+Compiled from "NSSocketUtilities.java"
+class com.webobjects.foundation.NSSocketUtilities$SocketThread extends java.lang.Thread {
+  protected volatile java.net.Socket returnSocket;
+  protected volatile java.io.IOException exception;
+  private boolean shouldBindLocal;
+  private java.net.InetAddress aRemoteAddress;
+  private int aRemotePort;
+  private java.net.InetAddress aLocalAddress;
+  private int aLocalPort;
+  final com.webobjects.foundation.NSSocketUtilities this$0;
+  public com.webobjects.foundation.NSSocketUtilities$SocketThread(com.webobjects.foundation.NSSocketUtilities, boolean, java.net.InetAddress, int, java.net.InetAddress, int);
+  public void run();
+}
