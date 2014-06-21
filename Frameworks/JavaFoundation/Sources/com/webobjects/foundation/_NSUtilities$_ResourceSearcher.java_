@@ -1,5 +1,0 @@
-Compiled from "_NSUtilities.java"
-interface com.webobjects.foundation._NSUtilities$_ResourceSearcher {
-  public abstract java.lang.Class _searchForClassWithName(java.lang.String);
-  public abstract java.net.URL _searchPathURLForResourceWithName(java.lang.Class, java.lang.String, java.lang.String);
-}
