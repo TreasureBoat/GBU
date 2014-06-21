@@ -1,6 +1,0 @@
-Compiled from "NSKeyValueCoding.java"
-public class com.webobjects.foundation.NSKeyValueCoding$_ForwardingBinding extends com.webobjects.foundation.NSKeyValueCoding$_KeyBinding {
-  public com.webobjects.foundation.NSKeyValueCoding$_ForwardingBinding(java.lang.Class, java.lang.String);
-  public java.lang.Object valueInObject(java.lang.Object);
-  public void setValueInObject(java.lang.Object, java.lang.Object);
-}

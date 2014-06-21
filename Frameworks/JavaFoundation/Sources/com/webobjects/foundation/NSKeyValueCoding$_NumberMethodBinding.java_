@@ -1,8 +1,0 @@
-Compiled from "NSKeyValueCoding.java"
-public class com.webobjects.foundation.NSKeyValueCoding$_NumberMethodBinding extends com.webobjects.foundation.NSKeyValueCoding$_MethodBinding {
-  protected java.lang.Class _valueClass;
-  public com.webobjects.foundation.NSKeyValueCoding$_NumberMethodBinding(java.lang.Class, java.lang.String, java.lang.reflect.Method, java.lang.Class, com.webobjects.foundation.NSKeyValueCoding$ValueAccessor);
-  public java.lang.Class valueType();
-  public void setValueInObject(java.lang.Object, java.lang.Object);
-  public java.lang.String toString();
-}
