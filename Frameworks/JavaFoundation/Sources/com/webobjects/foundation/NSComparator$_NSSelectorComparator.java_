@@ -1,8 +1,0 @@
-Compiled from "NSComparator.java"
-public class com.webobjects.foundation.NSComparator$_NSSelectorComparator extends com.webobjects.foundation.NSComparator {
-  com.webobjects.foundation.NSSelector _selector;
-  java.lang.Class _objectsClass;
-  public com.webobjects.foundation.NSComparator$_NSSelectorComparator(com.webobjects.foundation.NSSelector);
-  private void _computeObjectsClassFromObjects(java.lang.Object, java.lang.Object);
-  public int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
-}

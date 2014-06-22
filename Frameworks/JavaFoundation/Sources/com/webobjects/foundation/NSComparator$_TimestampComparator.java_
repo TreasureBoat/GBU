@@ -1,7 +1,0 @@
-Compiled from "NSComparator.java"
-class com.webobjects.foundation.NSComparator$_TimestampComparator extends com.webobjects.foundation.NSComparator {
-  private boolean _ascending;
-  public com.webobjects.foundation.NSComparator$_TimestampComparator();
-  public com.webobjects.foundation.NSComparator$_TimestampComparator(boolean);
-  public int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
-}

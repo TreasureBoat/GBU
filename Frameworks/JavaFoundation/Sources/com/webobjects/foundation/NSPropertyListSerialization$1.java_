@@ -1,5 +1,0 @@
-Compiled from "NSPropertyListSerialization.java"
-class com.webobjects.foundation.NSPropertyListSerialization$1 {
-  static final int[] $SwitchMap$com$webobjects$foundation$NSPropertyListSerialization$_XML$DictionaryParser$XMLNode$Type;
-  static {};
-}
