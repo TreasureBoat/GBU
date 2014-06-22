@@ -1,9 +1,0 @@
-Compiled from "NSKeyValueCodingAdditions.java"
-public interface com.webobjects.foundation.NSKeyValueCodingAdditions extends com.webobjects.foundation.NSKeyValueCoding {
-  public static final java.lang.Class _CLASS;
-  public static final java.lang.String KeyPathSeparator;
-  public static final char _KeyPathSeparatorChar;
-  public abstract java.lang.Object valueForKeyPath(java.lang.String);
-  public abstract void takeValueForKeyPath(java.lang.Object, java.lang.String);
-  static {};
-}

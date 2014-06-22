@@ -1,8 +1,0 @@
-Compiled from "NSKeyValueCodingAdditions.java"
-public class com.webobjects.foundation.NSKeyValueCodingAdditions$DefaultImplementation {
-  public static final java.lang.Class _CLASS;
-  public static java.lang.Object valueForKeyPath(java.lang.Object, java.lang.String);
-  public static void takeValueForKeyPath(java.lang.Object, java.lang.Object, java.lang.String);
-  com.webobjects.foundation.NSKeyValueCodingAdditions$DefaultImplementation();
-  static {};
-}

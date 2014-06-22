@@ -1,8 +1,0 @@
-Compiled from "NSKeyValueCoding.java"
-public interface com.webobjects.foundation.NSKeyValueCoding$ErrorHandling {
-  public static final java.lang.Class _CLASS;
-  public abstract java.lang.Object handleQueryWithUnboundKey(java.lang.String);
-  public abstract void handleTakeValueForUnboundKey(java.lang.Object, java.lang.String);
-  public abstract void unableToSetNullForKey(java.lang.String);
-  static {};
-}

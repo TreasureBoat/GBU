@@ -1,7 +1,0 @@
-Compiled from "NSComparator.java"
-class com.webobjects.foundation.NSComparator$_NumberComparator extends com.webobjects.foundation.NSComparator {
-  private boolean _ascending;
-  public com.webobjects.foundation.NSComparator$_NumberComparator();
-  public com.webobjects.foundation.NSComparator$_NumberComparator(boolean);
-  public int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
-}

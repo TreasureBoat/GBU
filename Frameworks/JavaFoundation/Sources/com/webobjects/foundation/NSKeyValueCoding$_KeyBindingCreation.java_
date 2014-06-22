@@ -1,9 +1,0 @@
-Compiled from "NSKeyValueCoding.java"
-public interface com.webobjects.foundation.NSKeyValueCoding$_KeyBindingCreation {
-  public static final java.lang.Class _CLASS;
-  public abstract com.webobjects.foundation.NSKeyValueCoding$_KeyBinding _createKeyGetBindingForKey(java.lang.String);
-  public abstract com.webobjects.foundation.NSKeyValueCoding$_KeyBinding _createKeySetBindingForKey(java.lang.String);
-  public abstract com.webobjects.foundation.NSKeyValueCoding$_KeyBinding _keyGetBindingForKey(java.lang.String);
-  public abstract com.webobjects.foundation.NSKeyValueCoding$_KeyBinding _keySetBindingForKey(java.lang.String);
-  static {};
-}

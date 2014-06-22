@@ -1,8 +1,0 @@
-Compiled from "NSComparator.java"
-class com.webobjects.foundation.NSComparator$_StringComparator extends com.webobjects.foundation.NSComparator {
-  private boolean _ascending;
-  private boolean _caseInsensitive;
-  public com.webobjects.foundation.NSComparator$_StringComparator();
-  public com.webobjects.foundation.NSComparator$_StringComparator(boolean, boolean);
-  public int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
-}

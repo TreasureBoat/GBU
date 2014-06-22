@@ -1,5 +1,0 @@
-Compiled from "NSComparator.java"
-public class com.webobjects.foundation.NSComparator$ComparisonException extends java.lang.Exception {
-  private static final long serialVersionUID;
-  public com.webobjects.foundation.NSComparator$ComparisonException(java.lang.String);
-}
