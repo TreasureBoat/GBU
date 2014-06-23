@@ -1,7 +1,0 @@
-Compiled from "NSTimeZone.java"
-public class com.webobjects.foundation.NSTimeZone$__NSTZPeriodComparator extends com.webobjects.foundation.NSComparator {
-  protected boolean _ascending;
-  public com.webobjects.foundation.NSTimeZone$__NSTZPeriodComparator();
-  public com.webobjects.foundation.NSTimeZone$__NSTZPeriodComparator(boolean);
-  public int compare(java.lang.Object, java.lang.Object) throws com.webobjects.foundation.NSComparator$ComparisonException;
-}

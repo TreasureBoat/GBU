@@ -160,24 +160,22 @@ public class NSPropertyListSerialization {
 		return ((result instanceof NSArray) ? (NSArray<Object>) result : NSArray.EmptyArray);
 	}
 
-	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url) {
+	public static NSDictionary<?, ?> dictionaryWithPathURL(URL url) {
 		return dictionaryWithPathURL(url, false);
 	}
 
-	@SuppressWarnings("unchecked")
-	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url, boolean forceXML) {
+	public static NSDictionary<?, ?> dictionaryWithPathURL(URL url, boolean forceXML) {
 		Object result = propertyListWithPathURL(url, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
 	}
 
-	public static NSDictionary<String, Object> dictionaryForString(String value) {
+	public static NSDictionary<?, ?> dictionaryForString(String value) {
 		return dictionaryForString(value, false);
 	}
 
-	@SuppressWarnings("unchecked")
-	public static NSDictionary<String, Object> dictionaryForString(String value, boolean forceXML) {
+	public static NSDictionary<?, ?> dictionaryForString(String value, boolean forceXML) {
 		Object result = propertyListFromString(value, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
 	}
 
 	public static class _ApplePList
