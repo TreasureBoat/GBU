@@ -1,0 +1,25 @@
+{
+  NSJavaPathClient = "JavaMonitor.jar";
+  CFBundleIdentifier = "com.apple.JavaMonitor";
+  CFBundleInfoDictionaryVersion = 6.0;
+  CFBundleShortVersionString = "5.4.3";
+  CFBundleVersion = 5.4;
+  CFBundleExecutable = "JavaMonitor";
+  NSJavaPath = (
+    "JavaMonitor.jar"
+  );
+  CFBundleGetInfoString = "";
+  NSJavaClientRoot = "Contents\/WebServerResources\/Java";
+  NSJavaNeeded = true;
+  CFBundlePackageType = "APPL";
+  CFBundleIconFile = "WOAfile.icns";
+  NSJavaRoot = "Contents\/Resources\/Java";
+  CFBundleSignature = "webo";
+  Has_WOComponents = true;
+  Java = {
+    JVMVersion = "1.5+";
+  };
+  NSExecutable = "JavaMonitor";
+  CFBundleDevelopmentRegion = "English";
+  CFBundleName = "WOA";
+}
