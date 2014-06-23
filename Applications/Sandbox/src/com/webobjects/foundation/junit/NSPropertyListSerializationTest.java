@@ -31,8 +31,8 @@ public class NSPropertyListSerializationTest {
 	@Test
 	public void testDictionaryWithPathURLURL() {
 		try {
-			NSDictionary<String, Object> plist = NSPropertyListSerialization.dictionaryWithPathURL(oldstylePlist.toURI().toURL());
-			for (String key : plist.keySet()) {
+			NSDictionary<?, ?> plist = NSPropertyListSerialization.dictionaryWithPathURL(oldstylePlist.toURI().toURL());
+			for (Object key : plist.keySet()) {
 				Object value = plist.get(key);
 				System.out.println(key + ", " + value + " [" + value.getClass() + "]");
 			}
@@ -45,8 +45,8 @@ public class NSPropertyListSerializationTest {
 	@Test
 	public void testDictionaryWithPathURLURLBoolean() {
 		try {
-			NSDictionary<String, Object> plist = NSPropertyListSerialization.dictionaryWithPathURL(xmlPlist.toURI().toURL(), true);
-			for (String key : plist.keySet()) {
+			NSDictionary<?, ?> plist = NSPropertyListSerialization.dictionaryWithPathURL(xmlPlist.toURI().toURL(), true);
+			for (Object key : plist.keySet()) {
 				Object value = plist.get(key);
 				System.out.println(key + ", " + value + " [" + value.getClass() + "]");
 			}
