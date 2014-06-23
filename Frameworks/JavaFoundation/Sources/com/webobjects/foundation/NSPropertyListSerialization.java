@@ -140,41 +140,44 @@ public class NSPropertyListSerialization {
 		return 0;
 	}
 
-	public static NSArray<?> arrayWithPathURL(URL url) {
+	public static NSArray<Object> arrayWithPathURL(URL url) {
 		return arrayWithPathURL(url, false);
 	}
 
-	public static NSArray<?> arrayWithPathURL(URL url, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSArray<Object> arrayWithPathURL(URL url, boolean forceXML) {
 		Object result = propertyListWithPathURL(url, forceXML);
-		return ((result instanceof NSArray) ? (NSArray<?>) result : NSArray.emptyArray());
+		return ((result instanceof NSArray) ? (NSArray<Object>) result : NSArray.emptyArray());
 	}
 
-	public static NSArray<?> arrayForString(String value) {
+	public static NSArray<Object> arrayForString(String value) {
 		return arrayForString(value, false);
 	}
 
-	public static NSArray<?> arrayForString(String value, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSArray<Object> arrayForString(String value, boolean forceXML) {
 		Object result = propertyListFromString(value, forceXML);
-		return ((result instanceof NSArray) ? (NSArray<?>) result : NSArray.EmptyArray);
+		return ((result instanceof NSArray) ? (NSArray<Object>) result : NSArray.EmptyArray);
 	}
 
-	public static <K, V> NSDictionary<K, V> dictionaryWithPathURL(URL url) {
+	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url) {
 		return dictionaryWithPathURL(url, false);
 	}
 
 	@SuppressWarnings("unchecked")
-	public static <K, V> NSDictionary<K, V> dictionaryWithPathURL(URL url, boolean forceXML) {
+	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url, boolean forceXML) {
 		Object result = propertyListWithPathURL(url, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
 	}
 
-	public static NSDictionary<?, ?> dictionaryForString(String value) {
+	public static NSDictionary<String, Object> dictionaryForString(String value) {
 		return dictionaryForString(value, false);
 	}
 
-	public static NSDictionary<?, ?> dictionaryForString(String value, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSDictionary<String, Object> dictionaryForString(String value, boolean forceXML) {
 		Object result = propertyListFromString(value, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
 	}
 
 	public static class _ApplePList
