@@ -140,40 +140,44 @@ public class NSPropertyListSerialization {
 		return 0;
 	}
 
-	public static NSArray<?> arrayWithPathURL(URL url) {
+	public static NSArray<Object> arrayWithPathURL(URL url) {
 		return arrayWithPathURL(url, false);
 	}
 
-	public static NSArray<?> arrayWithPathURL(URL url, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSArray<Object> arrayWithPathURL(URL url, boolean forceXML) {
 		Object result = propertyListWithPathURL(url, forceXML);
-		return ((result instanceof NSArray) ? (NSArray<?>) result : NSArray.emptyArray());
+		return ((result instanceof NSArray) ? (NSArray<Object>) result : NSArray.emptyArray());
 	}
 
-	public static NSArray<?> arrayForString(String value) {
+	public static NSArray<Object> arrayForString(String value) {
 		return arrayForString(value, false);
 	}
 
-	public static NSArray<?> arrayForString(String value, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSArray<Object> arrayForString(String value, boolean forceXML) {
 		Object result = propertyListFromString(value, forceXML);
-		return ((result instanceof NSArray) ? (NSArray<?>) result : NSArray.EmptyArray);
+		return ((result instanceof NSArray) ? (NSArray<Object>) result : NSArray.EmptyArray);
 	}
 
-	public static NSDictionary<?, ?> dictionaryWithPathURL(URL url) {
+	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url) {
 		return dictionaryWithPathURL(url, false);
 	}
 
-	public static NSDictionary<?, ?> dictionaryWithPathURL(URL url, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSDictionary<String, Object> dictionaryWithPathURL(URL url, boolean forceXML) {
 		Object result = propertyListWithPathURL(url, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
 	}
 
-	public static NSDictionary<?, ?> dictionaryForString(String value) {
+	public static NSDictionary<String, Object> dictionaryForString(String value) {
 		return dictionaryForString(value, false);
 	}
 
-	public static NSDictionary<?, ?> dictionaryForString(String value, boolean forceXML) {
+	@SuppressWarnings("unchecked")
+	public static NSDictionary<String, Object> dictionaryForString(String value, boolean forceXML) {
 		Object result = propertyListFromString(value, forceXML);
-		return ((result instanceof NSDictionary) ? (NSDictionary<?, ?>) result : NSDictionary.EmptyDictionary);
+		return ((result instanceof NSDictionary) ? (NSDictionary<String, Object>) result : NSDictionary.EmptyDictionary);
 	}
 
 	public static class _ApplePList
@@ -1062,10 +1066,8 @@ public class NSPropertyListSerialization {
 				saveCharContent();
 				boolean foundOpenTag;
 				XMLNode lastNode;
-				switch (aType.ordinal()) {
-				case 1:
-					break;
-				case 2:
+				switch (aType) {
+				case ARRAY:
 					NSMutableArray<Object> array = new NSMutableArray<Object>();
 					foundOpenTag = false;
 					while (!(this._stack.isEmpty())) {
@@ -1087,13 +1089,14 @@ public class NSPropertyListSerialization {
 					if (foundOpenTag)
 						return;
 					throw new SAXException("No starting <array> tag.");
-				case 3:
+				case DICT:
+				case DICTIONARY:
 					NSMutableDictionary<Object, Object> dictionary = new NSMutableDictionary<Object, Object>();
 					foundOpenTag = false;
 					while (!(this._stack.isEmpty())) {
 						XMLNode currentNode = this._stack.peek();
 						if (currentNode.tagOpen()) {
-							if (XMLNode.Type.DICTIONARY.equals(currentNode.type())) {
+							if (XMLNode.Type.DICT.equals(currentNode.type()) || XMLNode.Type.DICTIONARY.equals(currentNode.type())) {
 								foundOpenTag = true;
 								currentNode.setValue(dictionary);
 								currentNode.setTagOpen(false);
@@ -1120,9 +1123,7 @@ public class NSPropertyListSerialization {
 					if (foundOpenTag)
 						return;
 					throw new SAXException("No starting <" + qName + "> tag.");
-				case 4:
-					break;
-				case 5:
+				case STRING:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1133,18 +1134,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 6:
-					lastNode = this._stack.peek();
-					if (aType.equals(lastNode.type())) {
-						if (lastNode.value() != null)
-							return;
-						lastNode.setValue(new String(""));
-						lastNode.setTagOpen(false);
-						return;
-					}
-
-					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 7:
+				case DATE:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1155,7 +1145,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 8:
+				case INTEGER:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1166,7 +1156,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 9:
+				case REAL:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1177,7 +1167,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 10:
+				case FALSE:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1188,7 +1178,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 11:
+				case TRUE:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1199,18 +1189,7 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 12:
-					lastNode = this._stack.peek();
-					if (aType.equals(lastNode.type())) {
-						if (lastNode.value() != null)
-							return;
-						lastNode.setValue(Boolean.FALSE);
-						lastNode.setTagOpen(false);
-						return;
-					}
-
-					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
-				case 13:
+				case DATA:
 					lastNode = this._stack.peek();
 					if (aType.equals(lastNode.type())) {
 						if (lastNode.value() != null)
@@ -1221,6 +1200,8 @@ public class NSPropertyListSerialization {
 					}
 
 					throw new SAXException("Ending <" + qName + "> tag does not match starting <" + lastNode.type() + "> tag.");
+				default:
+					break;
 				}
 			}
 
@@ -1253,11 +1234,11 @@ public class NSPropertyListSerialization {
 
 			public void startElement(String uri, String localName, String qName, Attributes attributes) {
 				XMLNode.Type aType = XMLNode.Type.typeForName(qName);
-				switch (aType.ordinal()) {
-				case 11:
+				switch (aType) {
+				case TRUE:
 					this._stack.push(new XMLNode(aType, Boolean.TRUE, false));
 					break;
-				case 12:
+				case FALSE:
 					this._stack.push(new XMLNode(aType, Boolean.FALSE, false));
 					break;
 				default:
@@ -1280,25 +1261,16 @@ public class NSPropertyListSerialization {
 					return;
 				XMLNode lastNode = this._stack.peek();
 				if (lastNode.tagOpen())
-					switch (lastNode.type().ordinal()) {
-					case 1:
-						break;
-					case 2:
-						break;
-					case 3:
-						break;
-					case 4:
+					switch (lastNode.type()) {
+					case UNKNOWN:
 						lastNode.setTagOpen(false);
 						break;
-					case 5:
+					case KEY:
+					case STRING:
 						lastNode.setValue(unescapeString(this._curChars.toString()));
 						lastNode.setTagOpen(false);
 						break;
-					case 6:
-						lastNode.setValue(unescapeString(this._curChars.toString()));
-						lastNode.setTagOpen(false);
-						break;
-					case 7:
+					case DATE:
 						try {
 							lastNode.setValue(new NSTimestamp(this._dateFormat.parse(this._curChars.toString())));
 						} catch (Exception exception) {
@@ -1306,7 +1278,7 @@ public class NSPropertyListSerialization {
 						}
 						lastNode.setTagOpen(false);
 						break;
-					case 8:
+					case INTEGER:
 						try {
 							lastNode.setValue(new BigInteger(this._curChars.toString()));
 						} catch (Exception exception) {
@@ -1314,7 +1286,7 @@ public class NSPropertyListSerialization {
 						}
 						lastNode.setTagOpen(false);
 						break;
-					case 9:
+					case REAL:
 						try {
 							lastNode.setValue(new BigDecimal(this._curChars.toString()));
 						} catch (Exception exception) {
@@ -1322,19 +1294,19 @@ public class NSPropertyListSerialization {
 						}
 						lastNode.setTagOpen(false);
 						break;
-					case 10:
+					case BOOLEAN:
 						lastNode.setValue(new Boolean(this._curChars.toString()));
 						lastNode.setTagOpen(false);
 						break;
-					case 11:
+					case TRUE:
 						lastNode.setValue(Boolean.TRUE);
 						lastNode.setTagOpen(false);
 						break;
-					case 12:
+					case FALSE:
 						lastNode.setValue(Boolean.FALSE);
 						lastNode.setTagOpen(false);
 						break;
-					case 13:
+					case DATA:
 						try {
 							StringBuffer stringbuffer = new StringBuffer(this._curChars.length());
 							for (int i = 0; i < this._curChars.length(); ++i) {
@@ -1353,6 +1325,8 @@ public class NSPropertyListSerialization {
 							throw new SAXException(unsupportedencodingexception.getMessage());
 						}
 						lastNode.setTagOpen(false);
+					default:
+						break;
 					}
 			}
 
@@ -1449,40 +1423,30 @@ public class NSPropertyListSerialization {
 						BOOLEAN,
 						ARRAY,
 						DICTIONARY,
+						DICT,
 						TRUE,
 						FALSE,
 						UNKNOWN;
 
-					String _qName;
-					String _openTag;
-					String _closeTag;
-
-					public String qName() {
-						return this._qName;
-					}
-
-					public String openTag() {
-						return this._openTag;
-					}
-
-					public String closeTag() {
-						return this._closeTag;
-					}
-
 					public static Type typeForName(String qName) {
 						if (qName != null) {
-							String aQName = qName.toLowerCase();
-							for (Type aType : values()) {
-								if (aType._qName.equals(aQName))
+							for (Type aType : Type.values()) {
+								if (aType.toString().equalsIgnoreCase(qName)) {
 									return aType;
+								}
 							}
 						}
 						return UNKNOWN;
 					}
 
-					public String toString() {
-						return this._qName;
+					public String openTag() {
+						return "<" + name().toLowerCase() + ">";
 					}
+
+					public String closeTag() {
+						return "</" + name().toLowerCase() + ">";
+					}
+
 				}
 			}
 		}
