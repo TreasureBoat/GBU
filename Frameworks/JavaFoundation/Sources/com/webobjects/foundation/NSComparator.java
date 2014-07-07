@@ -21,7 +21,7 @@ package com.webobjects.foundation;
 
 import java.lang.reflect.InvocationTargetException;
 
-public abstract class NSComparator<T> {
+public abstract class NSComparator<T extends Object> {
 	public static final Class<?> _CLASS = _NSUtilities._classWithFullySpecifiedName("com.webobjects.foundation.NSComparator");
 
 	public static final NSComparator<String> AscendingStringComparator = new _StringComparator(true, false);
@@ -64,14 +64,14 @@ public abstract class NSComparator<T> {
 		return 0;
 	}
 
-	protected static class _NSSelectorComparator<T>
+	protected static class _NSSelectorComparator<T extends Object>
 		extends
 		NSComparator<T> {
-		NSSelector<?> _selector;
+		NSSelector<T> _selector;
 		Class<?> _objectsClass;
 
 		public _NSSelectorComparator(
-			NSSelector<?> selector) {
+			NSSelector<T> selector) {
 			if (selector == null) {
 				throw new IllegalArgumentException("Selector not specified");
 			}
