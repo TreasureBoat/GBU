@@ -183,7 +183,7 @@ public final class _NSUtilities {
 			throwable = exception;
 		}
 
-		NSLog.err.appendln("Cannot l Class<?> ss with name " + className);
+		NSLog.err.appendln("Cannot load class with name " + className);
 		if (NSLog.debugLoggingAllowedForLevel(1)) {
 			NSLog.debug.appendln(throwable);
 		}
@@ -924,9 +924,9 @@ public final class _NSUtilities {
 		protected static final Class<?> _CLASS = _NSUtilities._classWithFullySpecifiedName("com.webobjects.foundation._NSUtilities$_NoClassUnderTheSun");
 	}
 
-	static abstract interface _ResourceSearcher {
-		public abstract Class<?> _searchForClassWithName(String paramString);
+	static interface _ResourceSearcher {
+		Class<?> _searchForClassWithName(String paramString);
 
-		public abstract URL _searchPathURLForResourceWithName(Class<?> paramClass, String paramString1, String paramString2);
+		URL _searchPathURLForResourceWithName(Class<?> paramClass, String paramString1, String paramString2);
 	}
 }

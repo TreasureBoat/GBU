@@ -30,7 +30,7 @@ import java.util.Map;
 public interface NSKeyValueCoding {
 	public static final Class<?> _CLASS = _NSUtilitiesExtra._classWithFullySpecifiedNamePrime("com.webobjects.foundation.NSKeyValueCoding");
 
-	public static final Null NullValue = new Null();
+	public static final Null<Object> NullValue = new Null<Object>();
 
 	Object valueForKey(String paramString);
 
@@ -1053,12 +1053,7 @@ public interface NSKeyValueCoding {
 		}
 	}
 
-	/**
-	 * Generics removed. The class never used generic types in any of the methods and/or method signatures.
-	 * 
-	 * @author fijaz
-	 */
-	public static final class Null
+	public static final class Null<T extends Object>
 		implements
 		Serializable,
 		Cloneable,
